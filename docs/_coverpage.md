@@ -1,10 +1,12 @@
-# 💻
+<!-- ![logo](https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/docsify-darklight-theme-logo.png)
 
-<h1 id="cover-heading">
-  My Open Publishing Space
-</h1>
+# docsify-darklight-theme-starter
 
-> Create, Share and Collaborate
+> A magical documentation site generator with dark and light mode switch.
 
-[Explore](#my-open-publishing-space)
-[GitHub](https://github.com/hibbitts-design/docsify-open-publishing-starter-kit)
+- Themes are customizable based on your color preferences.
+- Themes are remembered and retrieved from local storage.
+- Redesigned search box.
+
+[Preview](https://boopathikumar018.github.io/docsify-darklight-theme)
+[Getting Started](#docsify) -->
