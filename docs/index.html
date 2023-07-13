@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>optimalHRV</title>
+  <title>Measure Heart Rate Variability | Optimal HRV</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="optimalHRV">
+  <meta name="description" content="Measure Heart Rate Variability | Optimal HRV">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/favicon/favicon.png">
 
@@ -146,7 +146,7 @@
     window.$docsify = {
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
-      name: 'optimalHRV',
+      name: 'Optimal HRV',
       // repo           : 'https://github.com/hibbitts-design/docsify-open-publishing-starter-kit/',
       homepage: 'home.md',
       // coverpage      : '_coverpage.md',
@@ -250,8 +250,8 @@
             }
               
             /* JS to change Embedly cards to light or dark theme based on system theme (uncomment to use) */
-            /*
-            const embeds = Array.from(htmlElement.querySelectorAll('.embedly-card'))
+            
+            /* const embeds = Array.from(htmlElement.querySelectorAll('.embedly-card'))
             if (!(embeds.length === 0)) {
                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)  {
                   // dark mode
@@ -272,8 +272,8 @@
                 document.location.reload();
               });
 
-            }
-            */
+            } */
+           
 
             next(htmlElement.innerHTML);
 
@@ -287,13 +287,14 @@
             } else {
               url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
             }
-            var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ')\n'
+            //removing the edit button everywhere
+            /* var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ')\n'
 
             if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
               return editHtml + '\n' + html
             } else {
               return html
-            }
+            } */
 
           });
 
