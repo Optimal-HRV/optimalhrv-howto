@@ -80,4 +80,37 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 ### Biofeedback and Mindfulness
 > Please refer to the [Connecting and HRV Reader and Starting an Activity](mobile-app.md#connecting-an-hrv-reader-and-starting-an-actvity) section to start these activties.
 
+- <u>Biofeedback & Mindfulness Page</u>: This page contains four crucial activities to improve the health of your nervous system. On the top of the page, you will find a history button to review your past training sessions.
+  - <u>Resonance Frequency (RF) Assessment</u>: The assessment will guide you through seven 2-minute breathing exercises to determine your resonance frequency breathing rate. Your RF breathing rate is the breathing rate that will optimize your breathing, mindfulness, and self-compassion training. Note: your breathing rate does not change after the age of 13. No rate is better than another, it is YOUR best rate, so you only need to take the assessment once.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/mobile-biofeedback-mindfulness.png"/>
+<img height="375" src="./images/mobile-app/mobile-rfassessment.png"/>
+</div>
+
+- <u>Biofeedback Training</u>: This page allows you to train your HRV at your RF breathing rate. During the biofeedback training, you can choose to “Track HRV” or “Show pacer only.” “Show pacer only” provides you with a pacer to practice your RF breathing rate with a pacer. “Track HRV” will provide you with an EKG during the training and HRV data at its conclusion. 
+- <u>Results</u>: After a training session, you will see a results page with HRV data collected during the training.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/mobile-biofeedback-training.png"/>
+<img height="375" src="./images/mobile-app/mobile-biofeedback-results.png"/>
+</div>
+
+- <u>Mindfulness Training</u>: Optimal HRV provides a range of proven mindfulness training activities to practice at your RF breathing rate. Explore these activities to find your favorites. Once you select an activity, you can track your HRV or use the pacer without tracking HRV.
+- <u>Self-Compassion Training</u>: There is an exciting amount of research demonstrating the positive benefits of self-compassion training. Optimal HRV worked with Dr. Chris Germer from the Center for Mindfulness and Compassion and Harvard Medical School to integrate best practices into the Optimal HRV app. Functionally, the Self-Compassion Training Page function like the Mindfulness Training Page.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/mobile-mindfulness-practice.png"/>
+<img height="375" src="./images/mobile-app/mobile-mindfulness-practice-start.png"/>
+<img height="375" src="./images/mobile-app/mobile-mindfulness-settings.png"/>
+</div>
+
+- <u>History</u>: There is a “View History” link on the main Mindfulness & Biofeedback page. This link will take you to a page with all your Mindfulness and Biofeedback trainings.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/mobile-mindbio-history.png"/>
+<img height="375" src="./images/mobile-app/mobile-mindbio-history-pg.png"/>
+</div>
+
+
 ## Onboarding, Resources & Tutorial, and Profile Instructions
