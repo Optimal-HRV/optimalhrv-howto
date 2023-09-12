@@ -141,3 +141,60 @@ To add a new group and admin.
 </div>
 
 ## Reviewing People's HRV Data
+- There are two pages to review user HRV data. The first is a general overview of HRV readings. The second is a more detailed view of HRV readings and trainings sessions. 
+- To access the general view. Go to the group page and click on the name of the person you want to review.  
+- The page contains information on individual readings and a person’s averages. 
+- You can access more information on people’s HRV data by clicking the reports icon on the left-hand menu, only visible from the main organization page.
+  - On the reports page there is a drop-down menu labeled Users. This will give you a list of people in the organization. 
+  - Select the person or people you want to get data on and click the “Apply” button.
+  - There is another drop-down menu labeled Tags. This menu allows you to view readings the user tags after their reading.
+
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-17.png"/>
+<img width="450" src="./images/web-dashboard/webdash-img-18.png"/>
+<img width="450" src="./images/web-dashboard/webdash-img-19.png"/>
+</div>
+
+To further customize the data, four additional functions are on the Reports page. 
+- The first is a slider bar at the bottom of the charts that allow you to adjust the timeframe of the data displayed.
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-20.png"/>
+</div>
+
+- The second is a date range. That also helps adjust the date range for the data display.
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-21.png"/>
+</div>
+
+- The third is a gear icon next to the date range which opens a pop-up that allows you to choose to further customize the data with two drop-down menus: 
+  - The left menu lets you further customize the data by the time of day the reading is taken. 
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-22.png"/>
+  </div>
+  - The right menu allows you to choose whether each reading is displayed separately or if you want an average of daily readings, for example. If a person takes three readings in a day, “District” will show each reading as individual data points. “Average” will show the average of those three readings.
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-23.png"/>
+  <img src="./images/web-dashboard/webdash-img-24.png"/>
+  </div>
+  - Finally, there is a “Download Daily Readings” link. Clicking this link with create an Xcel Spreadsheet with data from all an user’s HRV readings.
+- Fourth, you can select the specific HRV algorithms you want to view. While we provide RMSSD on the app for HRV readings. The app also collects the time domain data for Min-Max and SDNN. You can add or eliminate algorithms by clicking the algorithm’s name at the bottom of the chart.
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-25.png"/>
+  </div>
+- The app also collects Frequency Domain HRV algorithms as well including low-frequency, high-frequency, and very low-frequency. As with the time domain chart, you can click on the name at the bottom of the chart to add or remove algorithms.
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-26.png"/>
+  </div>
+- Finally, there is a “Download Daily Readings” link. Clicking this link creates an Xcel Spreadsheet with data from all the user’s HRV readings.
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-27.png"/>
+  </div>
+
+### Biofeedback and Mindfulness Page
+- The Biofeedback and Mindfulness data are presented in a similar way to the Daily readings with a few additional functions. 
+  - The first is that you will see time in Optimal Zone on the left. Optimal HRV uses Optimal Zone as a simple metric to help users know when their training helps improve their HRV. 
+  - The frequency domains are on top of these pages, as breathing exercises are the best measures of HRV during training. 
+- The app also collects Frequency Domain HRV algorithms, including low-frequency, high-frequency, and very low-frequency. As with the time domain chart, you can click on the name at the bottom of the chart to add or remove algorithms.
+<div align=center>
+<img src="./images/web-dashboard/webdash-img-28.png"/>
+</div>
