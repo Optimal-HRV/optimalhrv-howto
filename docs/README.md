@@ -31,8 +31,3 @@ The physiological process of HRV can be accurately measured using the Optimal HR
 # Release notes
 
 View the [Change log](changelog.md) to know the details of each versions.
-
-# License
-
-This project is licensed under the terms of the [MIT](https://raw.githubusercontent.com/Optimal-HRV/optimalhrv-howto/master/LICENSE) license.
- © [Optimal, LLC](https://www.optimalhrv.com/)
