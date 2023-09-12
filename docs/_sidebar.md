@@ -1,6 +1,6 @@
 - Getting started
 
-  - [Mobile App](configuration.md)
+  - [Mobile App](mobile-app.md)
   - [Web Dashboard](web-dashboard.md)
 
 - Others
