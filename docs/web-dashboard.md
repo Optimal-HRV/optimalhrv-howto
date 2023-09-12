@@ -103,3 +103,41 @@ Additional functionality “Actions” on the far right of the user menu:
 </div>
 
 ## Groups Page
+To access the Groups Page. Click the Groups icon on the left menu. 
+
+To add a new group and admin. 
+- Click the group icon on the left menu. 
+- A box will allow you to set up a new group. 
+- Name the group. 
+- Organizational admins are automatically set as admins for every group. As admins, they can view the group’s data and add users. However, their data will not be included unless they are added to the group.  
+- You can add group admins when creating a new group by clicking the plus icon next to their names. Adding someone as a group admin will allow them to add and remove people from a specific group and see that group’s information.
+
+<div align=center>
+<img height="300" width="450" src="./images/web-dashboard/webdash-img-11.png"/>
+<img width="400" src="./images/web-dashboard/webdash-img-12.png"/>
+</div>
+
+
+## To add people to a group
+
+- Get to the group page: 
+  - Click the group icon on the left menu or click a group name on the dashboard. 
+  - This will link to the group home page with a list of users and HRV data for the individual and the group. 
+  - Clicking the User icon on the left menu will take you to a list of group members.
+  - Click the Add User button.
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-13.png"/>
+<img width="450" src="./images/web-dashboard/webdash-img-14.png"/>
+</div>
+
+- An Add User table will pop up. 
+  - Start typing the person’s name you want to add. 
+  - People whose name starts with that letter will automatically populate a drop-down menu.
+  - Once you click the person’s name, they are added to the group. You can continue to add
+
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-15.png"/>
+<img width="450" src="./images/web-dashboard/webdash-img-16.png"/>
+</div>
+
+## Reviewing People's HRV Data
