@@ -1,10 +1,8 @@
 - Getting started
 
+  - [Mobile App](mobile-app.md)
   - [Web Dashboard](web-dashboard.md)
-  - [Mobile App](configuration.md)
-  <!-- - [Docsify-themeable-setup](docsifyThemeable.md) -->
-  <!-- - [Theme Support](themeSupport.md) -->
 
 - Others
-  <!-- - [Showcase](showcase.md) -->
+  - [Support](support.md)
   - [Changelog](changelog.md)
