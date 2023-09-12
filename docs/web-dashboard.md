@@ -103,3 +103,98 @@ Additional functionality “Actions” on the far right of the user menu:
 </div>
 
 ## Groups Page
+To access the Groups Page. Click the Groups icon on the left menu. 
+
+To add a new group and admin. 
+- Click the group icon on the left menu. 
+- A box will allow you to set up a new group. 
+- Name the group. 
+- Organizational admins are automatically set as admins for every group. As admins, they can view the group’s data and add users. However, their data will not be included unless they are added to the group.  
+- You can add group admins when creating a new group by clicking the plus icon next to their names. Adding someone as a group admin will allow them to add and remove people from a specific group and see that group’s information.
+
+<div align=center>
+<img height="300" width="450" src="./images/web-dashboard/webdash-img-11.png"/>
+<img width="400" src="./images/web-dashboard/webdash-img-12.png"/>
+</div>
+
+
+## To add people to a group
+
+- Get to the group page: 
+  - Click the group icon on the left menu or click a group name on the dashboard. 
+  - This will link to the group home page with a list of users and HRV data for the individual and the group. 
+  - Clicking the User icon on the left menu will take you to a list of group members.
+  - Click the Add User button.
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-13.png"/>
+<img width="450" src="./images/web-dashboard/webdash-img-14.png"/>
+</div>
+
+- An Add User table will pop up. 
+  - Start typing the person’s name you want to add. 
+  - People whose name starts with that letter will automatically populate a drop-down menu.
+  - Once you click the person’s name, they are added to the group. You can continue to add
+
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-15.png"/>
+<img width="450" src="./images/web-dashboard/webdash-img-16.png"/>
+</div>
+
+## Reviewing People's HRV Data
+- There are two pages to review user HRV data. The first is a general overview of HRV readings. The second is a more detailed view of HRV readings and trainings sessions. 
+- To access the general view. Go to the group page and click on the name of the person you want to review.  
+- The page contains information on individual readings and a person’s averages. 
+- You can access more information on people’s HRV data by clicking the reports icon on the left-hand menu, only visible from the main organization page.
+  - On the reports page there is a drop-down menu labeled Users. This will give you a list of people in the organization. 
+  - Select the person or people you want to get data on and click the “Apply” button.
+  - There is another drop-down menu labeled Tags. This menu allows you to view readings the user tags after their reading.
+
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-17.png"/>
+<img width="450" src="./images/web-dashboard/webdash-img-18.png"/>
+<img width="450" src="./images/web-dashboard/webdash-img-19.png"/>
+</div>
+
+To further customize the data, four additional functions are on the Reports page. 
+- The first is a slider bar at the bottom of the charts that allow you to adjust the timeframe of the data displayed.
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-20.png"/>
+</div>
+
+- The second is a date range. That also helps adjust the date range for the data display.
+<div align=center>
+<img width="450" src="./images/web-dashboard/webdash-img-21.png"/>
+</div>
+
+- The third is a gear icon next to the date range which opens a pop-up that allows you to choose to further customize the data with two drop-down menus: 
+  - The left menu lets you further customize the data by the time of day the reading is taken. 
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-22.png"/>
+  </div>
+  - The right menu allows you to choose whether each reading is displayed separately or if you want an average of daily readings, for example. If a person takes three readings in a day, “District” will show each reading as individual data points. “Average” will show the average of those three readings.
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-23.png"/>
+  <img src="./images/web-dashboard/webdash-img-24.png"/>
+  </div>
+  - Finally, there is a “Download Daily Readings” link. Clicking this link with create an Xcel Spreadsheet with data from all an user’s HRV readings.
+- Fourth, you can select the specific HRV algorithms you want to view. While we provide RMSSD on the app for HRV readings. The app also collects the time domain data for Min-Max and SDNN. You can add or eliminate algorithms by clicking the algorithm’s name at the bottom of the chart.
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-25.png"/>
+  </div>
+- The app also collects Frequency Domain HRV algorithms as well including low-frequency, high-frequency, and very low-frequency. As with the time domain chart, you can click on the name at the bottom of the chart to add or remove algorithms.
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-26.png"/>
+  </div>
+- Finally, there is a “Download Daily Readings” link. Clicking this link creates an Xcel Spreadsheet with data from all the user’s HRV readings.
+  <div align=center>
+  <img src="./images/web-dashboard/webdash-img-27.png"/>
+  </div>
+
+### Biofeedback and Mindfulness Page
+- The Biofeedback and Mindfulness data are presented in a similar way to the Daily readings with a few additional functions. 
+  - The first is that you will see time in Optimal Zone on the left. Optimal HRV uses Optimal Zone as a simple metric to help users know when their training helps improve their HRV. 
+  - The frequency domains are on top of these pages, as breathing exercises are the best measures of HRV during training. 
+- The app also collects Frequency Domain HRV algorithms, including low-frequency, high-frequency, and very low-frequency. As with the time domain chart, you can click on the name at the bottom of the chart to add or remove algorithms.
+<div align=center>
+<img src="./images/web-dashboard/webdash-img-28.png"/>
+</div>
