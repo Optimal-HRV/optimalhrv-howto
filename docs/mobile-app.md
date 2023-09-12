@@ -114,3 +114,30 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 
 
 ## Onboarding, Resources & Tutorial, and Profile Instructions
+
+- <u>Onboarding Tasks</u>: `Start here!` We created a seven-day onboarding process to help new users explore all the functions and benefits of the Optimal HRV app.  
+<div align=center>
+<img height="375" src="./images/mobile-app/mobile-onboarding.png"/>
+</div>
+
+- <u>Profile</u>: The Profile page is a great place to visit early in your HRV journey. Please visit the Profile Details page to ensure your date of birth and gender are set to get accurate population norms.
+<div align=center>
+<img height="375" src="./images/mobile-app/mobile-profile.png"/>
+</div>
+
+- <u>Reminder</u>: On this page, you can set reminder alarms to ensure that you remember to take your HRV readings and do your daily HRV tracking and training.
+<div align=center>
+<img height="375" src="./images/mobile-app/mobile-reminders.png"/>
+</div>
+
+- <u>Resources & Tutorials: This page is your stop to learn more about HRV and the Optimal HRV app. 
+  - <u>Podcast</u>: This page links to our Heart Rate Variability Podcast, where you can listen to over 100 episodes covering the evolving science, research, and application of HRV. 
+  - <u>Data Definitions</u>: This page defines the words we use throughout the Optimal HRV app. 
+  - <u>Videos</u>: We have created a series of videos to help you use the app, understand HRV, and strategies to utilize HRV to improve your health and well-being.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/mobile-resources.png"/>
+<img height="375" src="./images/mobile-app/mobile-youtube.png"/>
+<img height="375" src="./images/mobile-app/mobile-definitions.png"/>
+<img height="375" src="./images/mobile-app/mobile-podcasts.png"/>
+</div>
