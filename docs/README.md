@@ -31,3 +31,9 @@ The physiological process of HRV can be accurately measured using the Optimal HR
 # Release notes
 
 View the [Change log](changelog.md) to know the details of each versions.
+
+# Website Links
+
+- [Home](https://www.optimalhrv.com/)
+- [Trainings](https://www.optimalhrv.com/training)
+- [Podcasts](https://www.optimalhrv.com/podcast)
