@@ -5,4 +5,5 @@
 
 - Others
   - [Support](support.md)
+  - [Subcription](subscription.md)
   - [Changelog](changelog.md)
