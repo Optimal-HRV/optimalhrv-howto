@@ -4,6 +4,7 @@
   - [Web Dashboard](web-dashboard.md)
 
 - Others
-  - [Support](support.md)
+  - [Optimal HRV Reader](./Others/user-manual.md)
+  - [Support](./Others/support.md)
   - [Subcription](subscription.md)
   - [Changelog](changelog.md)

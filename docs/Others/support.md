@@ -11,9 +11,9 @@
   - Send the email to the filled in support id. 
 
 <div align=center>
-<img height="375" src="./images/mobile-app/mobile-support-profile.png"/>
-<img height="375" src="./images/mobile-app/mobile-support-describe.png"/>
-<img height="375" src="./images/mobile-app/mobile-support-sendmail.png"/>
+<img height="375" src="../images/mobile-app/mobile-support-profile.png"/>
+<img height="375" src="../images/mobile-app/mobile-support-describe.png"/>
+<img height="375" src="../images/mobile-app/mobile-support-sendmail.png"/>
 </div>
 
 # Contact
