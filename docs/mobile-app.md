@@ -110,6 +110,7 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 
 <div align=center>
 <img height="375" src="./images/mobile-app/mobile_BF.png" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/RF_assessment.png" style="margin-right: 30px;"/>
 <img height="375" src="./images/mobile-app/mobile_RF.jpg"/>
 </div>
 
@@ -157,19 +158,68 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 <img height="375" src="./images/mobile-app/mobile_BM_history.jpg"/>
 </div>
 
-## Reading Settings
+- <u>Session Settings</u>: The **Session Settings** page allows you to customize and tailor your biofeedback and mindfulness sessions for a more personalized experience. Here are the options you can adjust:
 
-- <u>Reading Settings</u>: In this screen you modify the setting that listed below:
+  - <u>Breaths Per Minute</u>: Adjust your target breathing rate to match your resonance frequency (RF) or preferred pace.
+  - <u>Inhale/Exhale Ratio</u>: Customize the inhale and exhale ratio for your breathing practice to ensure it aligns with your comfort and training goals.
+  - <u>Show Oz Messages</u>: This option allows you to toggle the visibility of **Optimal Zone (Oz) Messages** during your session. Oz Messages provide real-time feedback on how well you are following the pacer and staying within your optimal zone.
+  - <u>Sound & Vibration Cues</u>: Adjust sound and vibration feedback to help you stay in rhythm during your practice without needing to look at the screen.
 
-  - **Inhale/Exhale Percentage**
-  - **Breath Per Minute**
-  - **Optimal Zone messages**
-  - **Countdown**
-  - **Morning & Anytime Reading length**
-  - **Custom Tags**
-  - <div align=center>
-    <img height="375" src="./images/mobile-app/mobile_reading_settings.jpg"/>
-    </div>
+  With these settings, you can create a session that fits your needs, making your biofeedback or mindfulness training as effective and enjoyable as possible.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/BF_session_settings.png" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/session_settings.jpg"/>
+</div>
+
+### Reading Settings
+
+The **Reading Settings** screen allows you to customize your app experience by offering a variety of options and configurations. It is divided into two main sections for navigation, along with additional options for personalizing your display and session behavior:
+
+<div align=center>
+<img height="375" src="./images/mobile-app/reading_settings.jpg"/>
+</div>
+
+---
+
+**Navigation Headings**:
+
+- **HRV Readings**: This section allows you to modify specific aspects of how your HRV (Heart Rate Variability) data is handled.
+
+  - **RMSSD Reading Length**: Adjust the length of time for which RMSSD (Root Mean Square of the Successive Differences) is calculated. This allows you to fine-tune how sensitive your HRV readings are to fluctuations over different time periods.
+  - **Manage Custom Tags**: Organize and manage your custom tags that are used to label and categorize your HRV sessions. This feature helps you keep track of specific patterns or triggers that affect your HRV.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/HRV_reading_settings.jpg"/>
+</div>
+
+- **Biofeedback & Mindfulness Session Settings**: This section enables you to customize and personalize your biofeedback and mindfulness sessions to enhance your practice. Here are the adjustable options:
+
+  - **Breaths Per Minute**: Set your target breathing rate to align with your resonance frequency (RF) or any preferred breathing pace you are comfortable with.
+  - **Inhale/Exhale Ratio**: Adjust the ratio between inhaling and exhaling during your sessions to ensure it fits your breathing style and training objectives.
+  - **Show Oz Messages**: Toggle the display of **Optimal Zone (Oz) Messages**, which provide real-time feedback on how well you are following the pacer and staying within your optimal HRV zone. These messages guide you by indicating when you are in sync with the pacer or need to focus more on your breathing.
+  - **Sound & Vibration Cues**: Control the sound and vibration feedback during your sessions. These cues help you stay on track with your breathing without constantly watching the screen, enhancing the overall effectiveness of your practice.
+  - **Pacer Sound**: Customize the sounds for both inhalation and exhalation. You can choose from a list of 19 different sounds that suit your preferences, helping you stay aligned with the pacer and making your sessions more enjoyable.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/session_settings.jpg" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/sounds_&_vibration.jpg" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/sounds_list.jpg"/>
+</div>
+
+---
+
+**Additional Settings**:
+
+- **Dark Mode**: Toggle the Dark Mode switch to enable or disable dark mode within the app. Dark mode reduces eye strain in low-light environments and enhances visibility by providing a darker color palette throughout the interface.
+
+- **Countdown Timer**: Enable or disable the countdown timer before starting a session. The countdown timer provides a brief moment to prepare before your training begins, helping you transition into the practice smoothly.
+
+- **Length of Countdown Timer**: Adjust the length of the countdown timer to fit your preference. Whether you prefer a brief 3-second countdown or a longer 10-second period, this setting gives you control over how much preparation time you need before starting a session.
+
+---
+
+With these settings, the **Reading Settings** screen offers a robust range of customization options, allowing you to adjust your HRV data readings, session configurations, display preferences, and session preparation to best suit your needs and enhance your overall experience.
 
 ## Onboarding, Resources & Tutorial, and Profile Instructions
 
