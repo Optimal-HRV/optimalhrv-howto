@@ -25,7 +25,6 @@ The Reader transmits real-time heart rate variability (HRV) data through BLE or 
   </figure>
 </div>
 
-
 # Basic Parameters
 
 - Product size: 46.5 x 36 x 14mm
@@ -45,18 +44,17 @@ The Reader transmits real-time heart rate variability (HRV) data through BLE or 
 <img src="../images/manual/manual_led.png"/>
 </div>
 
-
 **Heart Rate Indicating:**
 
-*Max Heart Rate (MHR) = 180 (default)
+\*Max Heart Rate (MHR) = 180 (default)
 
-| Zone        | Color       |  Range (Default) |
-| ----------- | ----------- | -----------      |
-| Zone 1      | Blue        | Below 60% MHR    |
-| Zone 2      | Green       | 61%~70% MHR      |
-| Zone 3      | Yellow      | 71%~80% MHR      |
-| Zone 4      | Purple      | 81% ~ 90% MHR    |
-| Zone 5      | Red         | Above 91% MHR    |
+| Zone   | Color  | Range (Default) |
+| ------ | ------ | --------------- |
+| Zone 1 | Blue   | Below 60% MHR   |
+| Zone 2 | Green  | 61%~70% MHR     |
+| Zone 3 | Yellow | 71%~80% MHR     |
+| Zone 4 | Purple | 81% ~ 90% MHR   |
+| Zone 5 | Red    | Above 91% MHR   |
 
 Besides use with the Optimal HRV app, you can use the
 Reader to monitor heart rate during exercise for
@@ -83,7 +81,40 @@ continuously
 <img src="../images/manual/manual_wearing.png"/>
 </div>
 
-# Initial Setup
+### Initial Setup
+
+1. **Download the Optimal HRV app**  
+   Find and install the Optimal HRV app from your device's app store.
+
+2. **Subscribe or Log In**  
+   Open the app and either log in with your existing account or subscribe to create a new one.
+
+3. **Turn on Bluetooth**  
+   Ensure that Bluetooth is enabled on your phone. This is necessary to connect with the Optimal HRV Reader.
+
+4. **Select an Activity**  
+   Choose your desired activity from the app's available options.
+
+5. **Turn on the Optimal HRV Reader**  
+   Switch on your HRV reader to make it ready for pairing.
+
+6. **Connect Your Reader Through the App**
+
+   To ensure the best experience, connect your reader directly through the app instead of the Bluetooth settings. Open the app, tap **New Reading**, and follow the prompts.
+
+   **Tip**: If the reader doesn’t appear right away, tap **New Reading** again. If it still doesn’t connect, close and reopen the app to retry.
+
+   **Important**: Always connect through the app for optimal performance and seamless integration.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/mobile_anytime.jpg" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/mobile_connecting4.png"/>
+</div>
+
+7. **Start the Exercise**  
+   After the device is connected, the exercise will start automatically.
+
+<!-- # Initial Setup
 
 1. Find and download the Optimal HRV app in the appropriate app store.
 2. Subscribe or Log In into the Optimal HRV app.
@@ -93,7 +124,7 @@ continuously
 6. Select: Setup new device...
 7. Optimal HRV Reader will show on the Devices Page.
 8. Press Continue at the bottom of the page.
-9. Hit Start to begin the exercise.
+9. Hit Start to begin the exercise. -->
 
 # Applicable Models
 
