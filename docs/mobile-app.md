@@ -13,19 +13,30 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 <img width="275" height="375" src="./images/mobile-app/optimal-reader-removebg.png"/>
 </div>
 
-## Connecting an HRV Reader and Starting an Actvity
+## How to Connect Your Device to Start Taking Readings
 
-- As a reminder - Connect the Bluetooth reader through the app itself. Do not connect through the Bluetooth menu on your phone.
+Follow these steps to connect your HRV device and begin your reading:
 
-- When you start an activity, the app will prompt you to allow Bluetooth or location permissions if not already granted.
+1. **Connect via the App Only:**  
+   Be sure to connect your Bluetooth reader through the app, not through your phone’s Bluetooth settings.
 
-- If Bluetooth or location services are not enabled, the app will request to turn them on.
+2. **Allow Permissions:**  
+   When starting a reading, the app will prompt you to grant Bluetooth and location permissions if not already enabled.
 
-- Make sure your HRV reader is turned on and you are wearing it according to device recommendations.
+3. **Enable Bluetooth and Location Services:**  
+   If these services are off, the app will ask you to turn them on to proceed.
 
-- You will then see the "Bluetooth Devices" sheet. Select your device to automatically start the reading.
+4. **Turn On and Wear Your HRV Reader:**  
+   Ensure your HRV reader is powered on and worn according to the device's instructions.
 
-- When you close the app, the device will automatically disconnect. Each time to open the app after closing it you will need to connect a new device. Optimal HRV does this to ensure the best connection possible.
+5. **Select Your Device in the App:**  
+   The "Bluetooth Devices" screen will appear. Select your device to automatically start the reading.
+
+6. **Reconnecting After Closing the App:**  
+   Note that when you close the app, the device disconnects automatically. You’ll need to reconnect each time you reopen the app.
+
+7. **Having Trouble Connecting?**  
+   If you’re unable to connect or don’t see your device listed, refer to our [troubleshooting guide](/mobile-app.md#having-trouble-connecting-to-your-device) for further assistance.
 
 <div align=center>
 <img height="375" src="./images/mobile-app/mobile_connecting1.png" style="margin-right: 30px;"/>
@@ -33,6 +44,28 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 <img height="375" src="./images/mobile-app/mobile_connecting3.png" style="margin-right: 30px;"/>
 <img height="375" src="./images/mobile-app/mobile_connecting4.png"/>
 </div>
+
+## Having Trouble Connecting to Your Device?
+
+If you're experiencing connection issues, please follow these steps to troubleshoot:
+
+1. **Disconnect from Bluetooth Settings:**  
+   If your device is connected via the system's Bluetooth menu, please disconnect or "forget" the device from there, then try reconnecting.
+
+2. **Check Other Apps:**  
+   If your device is paired with another app, make sure to disconnect or "forget" it from there as well, then try reconnecting.
+
+3. **Confirm Device Power & Sensor Placement:**  
+   If your device isn’t appearing on the list, ensure it’s powered on and the sensor is properly positioned. When active, the device should blink with a blue or red light.
+
+4. **Refresh the Device List:**  
+   If the device still doesn’t show, press the 🔄 refresh icon in the top-right corner of the modal, and try refreshing two or three times.
+
+5. **Ensure Bluetooth and Location are On:**  
+   Make sure both Bluetooth and Location are enabled on your device, then try connecting again.
+
+6. **Still Having Issues?**  
+   If none of these steps resolve the issue, please reach out to us at [support@optimalhrv.com](mailto:support@optimalhrv.com?subject=Problem%20connecting%20my%20device) for further assistance.
 
 ## Optimal HRV Login Instructions
 
@@ -49,7 +82,7 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 
 ## Optimal HRV Readings Instructions
 
-> Please refer to the [Connecting and HRV Reader and Starting an Activity](mobile-app.md#connecting-an-hrv-reader-and-starting-an-actvity) section to start these activties.
+> Please refer to the [How to connect device to start taking readings?](mobile-app.md#how-to-connect-device-to-start-taking-readings) section to start these readings.
 
 ### HRV Readings
 
@@ -102,7 +135,7 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 
 ### Biofeedback and Mindfulness
 
-> Please refer to the [Connecting and HRV Reader and Starting an Activity](mobile-app.md#connecting-an-hrv-reader-and-starting-an-actvity) section to start these activties.
+> Please refer to the [How to connect device to start taking readings?](mobile-app.md#how-to-connect-device-to-start-taking-readings) section to start these activties.
 
 - <u>Biofeedback & Mindfulness Page</u>: This page contains four crucial activities to improve the health of your nervous system. Inside "History" section click on "Your last biofeedback training rate" to review your past training sessions.
 
