@@ -10,7 +10,7 @@ We provide two options for setting up a group and accessing the dashboard. Both 
 
 - `Option 1`:
   - The organizational owner will then have their Users subscribe to the Optimal HRV app using their usual email account.
-  - Users will then need to send an email from the associated email account to setup@optimalhrv.com telling us which organization should get access to their data. Please supply the organization's name and organizational owner (i.e., this may be the manager, coach, or clinician).
+  - Users will then need to send an email from the associated email account to support@optimalhrv.com telling us which organization should get access to their data. Please supply the organization's name and organizational owner (i.e., this may be the manager, coach, or clinician).
 - `Option 2`:
   - The organizational owner signs users up directly through the Dashboard.
   - Optimal HRV will invoice the owner $4.99 per month per dashboard user.
@@ -85,7 +85,7 @@ The left menu bar:
 - Usernames set up through the web dash look like email addresses (whether that address exists or not). Consider this a unique username for login purposes.
 - Set a password.
 - When you send people their username and password, encourage them to visit the Profile page the first time this log into the app. They should update their date of birth, gender, and new password.
-- If you add many new users, email setup@optimalhrv.com to get an Excel spreadsheet to import many new users into your organization efficiently.
+- If you add many new users, email support@optimalhrv.com to get an Excel spreadsheet to import many new users into your organization efficiently.
 <div align=center>
 <img width="450" src="./images/web-dashboard/webdash-img-5.png"/>
 <img width="400" src="./images/web-dashboard/webdash-img-6.png"/>
