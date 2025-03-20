@@ -1,4 +1,4 @@
-# Using the Optimal HRV app
+u# Using the Optimal HRV app
 
 Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our app provides a way to quantitatively measure Heart Rate Variability for yourself, for your employees, or for those you are caring for, as well as enhancing recovery with our in-app biofeedback training modules.
 
@@ -71,12 +71,15 @@ If you're experiencing connection issues, please follow these steps to troublesh
 
 - <u>Login</u>: To log in, you can use your Apple ID/Google Account or the username and password provided through your organization, professional, or Optimal team. This could be in the form of an email address or a username.
 
+- <u>Create an Account</u>: If you don’t have an account yet, you can sign up using your email and password by simply clicking on "Create Account".
+
 - Unless you got different instructions from the Optimal Team or a professional you are working with, please leave the “Organization” login information blank.
 
 - <u>Welcome Menu</u>: Here, you will see all the functionality of the Optimal HRV App. Next, we will explore what you will find on each menu item.
 
 <div align=center>
-<img height="375" src="./images/mobile-app/mobile_login.jpg" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/mobile_login.png" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/mobile_signUp.png" style="margin-right: 30px;"/>
 <img height="375" src="./images/mobile-app/mobile_home.png"/>
 </div>
 
@@ -139,12 +142,13 @@ If you're experiencing connection issues, please follow these steps to troublesh
 
 - <u>Biofeedback & Mindfulness Page</u>: This page contains four crucial activities to improve the health of your nervous system. Inside "History" section click on "Your last biofeedback training rate" to review your past training sessions.
 
-  - <u>Resonance Frequency (RF) Assessment</u>: The assessment will guide you through seven 2-minute breathing exercises to determine your resonance frequency breathing rate. Your RF breathing rate is the breathing rate that will optimize your breathing, mindfulness, and self-compassion training. Note: your breathing rate does not change after the age of 13. No rate is better than another, it is YOUR best rate, so you only need to take the assessment once.
+  - <u>Resonance Frequency (RF) Assessment</u>: Select your age group to get the most suitable assessment. The assessment will guide you through multiple 2-minute breathing exercises to determine your resonance frequency breathing rate. Your RF breathing rate is the breathing rate that will optimize your breathing, mindfulness, and self-compassion training. Note: your breathing rate does not change after the age of 13. No rate is better than another, it is YOUR best rate, so you only need to take the assessment once.
 
 <div align=center>
-<img height="375" src="./images/mobile-app/mobile_BF.png" style="margin-right: 30px;"/>
 <img height="375" src="./images/mobile-app/RF_assessment.png" style="margin-right: 30px;"/>
-<img height="375" src="./images/mobile-app/mobile_RF.jpg"/>
+<img height="375" src="./images/mobile-app/RF_select_age.png" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/RF_continue.png" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/RF_readings_list.png"/>
 </div>
 
 - <u>Biofeedback Training</u>: This page allows you to train your HRV at your RF breathing rate. During the biofeedback training, you can choose to “Track HRV” or “Show pacer only.” “Show pacer only” provides you with a pacer to practice your RF breathing rate with a pacer. “Track HRV” will provide you with an EKG during the training and HRV data at its conclusion.
@@ -153,7 +157,10 @@ If you're experiencing connection issues, please follow these steps to troublesh
 <img height="375" src="./images/mobile-app/mobile_BFT.jpg"/>
 </div>
 
-- <u>Optimal Zone</u>: At the start of your training session, you will see **Calculating your Optimal Zone** for the first minute. Thereafter, you will see **You're in Optimal Zone** if you consistently follow the pacer. Otherwise, the message will be **Focus on your breathing**.
+- <u>Optimal Zone</u>: At the start of your training session, you will see **Calculating your Optimal Zone** for the first minute. Thereafter, you will see **Optimal Zone Gauge**.
+  - **Low (0-40)**: Focus on following the pacer closely.
+  - **Medium (41-80)**: Keep it up, you're close to optimal.
+  - **OZ (81-100)**: You've reached the optimal zone.
 
 <div align=center>
 <img height="375" src="./images/mobile-app/mobile_OZ1.jpg" style="margin-right: 30px;"/>
@@ -193,16 +200,17 @@ If you're experiencing connection issues, please follow these steps to troublesh
 
 - <u>Session Settings</u>: The **Session Settings** page allows you to customize and tailor your biofeedback and mindfulness sessions for a more personalized experience. Here are the options you can adjust:
 
-  - <u>Breaths Per Minute</u>: Adjust your target breathing rate to match your resonance frequency (RF) or preferred pace.
-  - <u>Inhale/Exhale Ratio</u>: Customize the inhale and exhale ratio for your breathing practice to ensure it aligns with your comfort and training goals.
-  - <u>Show Oz Messages</u>: This option allows you to toggle the visibility of **Optimal Zone (Oz) Messages** during your session. Oz Messages provide real-time feedback on how well you are following the pacer and staying within your optimal zone.
-  - <u>Sound & Vibration Cues</u>: Adjust sound and vibration feedback to help you stay in rhythm during your practice without needing to look at the screen.
+  - **Biofeedback Session Length**: Set the duration of your biofeedback session to match your training preferences, whether it's a short focus session or a longer practice.
+  - **Show Oz Meter**: Enable or disable the **Optimal Zone Meter**, which visually tracks your progress in real-time, helping you stay aware of your current zone.
+  - **Show Suggestions**: Activate or deactivate real-time guidance suggestions to help you optimize your breathing and stay within the desired zone.
+  - **Sound & Vibration Cues**: Adjust sound and vibration feedback to help you stay in rhythm during your practice without needing to look at the screen.
+  - **Breathing Settings**: Fine-tune additional breathing parameters such as inhale hold, exhale hold, and pacing to customize your practice experience.
 
   With these settings, you can create a session that fits your needs, making your biofeedback or mindfulness training as effective and enjoyable as possible.
 
 <div align=center>
 <img height="375" src="./images/mobile-app/BF_session_settings.png" style="margin-right: 30px;"/>
-<img height="375" src="./images/mobile-app/session_settings.jpg"/>
+<img height="375" src="./images/mobile-app/session_settings.png"/>
 </div>
 
 ### Reading Settings
@@ -210,7 +218,7 @@ If you're experiencing connection issues, please follow these steps to troublesh
 The **Reading Settings** screen allows you to customize your app experience by offering a variety of options and configurations. It is divided into two main sections for navigation, along with additional options for personalizing your display and session behavior:
 
 <div align=center>
-<img height="375" src="./images/mobile-app/reading_settings.jpg"/>
+<img height="375" src="./images/mobile-app/reading_settings.png"/>
 </div>
 
 ---
@@ -226,16 +234,31 @@ The **Reading Settings** screen allows you to customize your app experience by o
 <img height="375" src="./images/mobile-app/HRV_reading_settings.jpg"/>
 </div>
 
+### **Breathing Settings**
+
+Fine-tune your breathing parameters to optimize your training:
+
+- **Inhale/Exhale Percentage**: Adjust the inhale and exhale duration as a percentage of your breathing cycle to find a balance that works best for you.
+- **Inhale Hold & Exhale Hold**: Set optional hold durations after inhalation and exhalation to deepen your practice and improve breath control.
+- **BPM Selection**: Choose your target **Breaths Per Minute (BPM)** based on your personal preference or resonance frequency.
+- **Default Breathing Rates**: Your default breathing rates are auto-adjusted based on your age group. However, you can manually modify the list of breathing rates to better suit your needs.
+
+<div align=center>
+<img height="375" src="./images/mobile-app/breathing_settings.png"/>
+<img height="375" src="./images/mobile-app/breathing_settings_age_group.png"/>
+</div>
+
 - **Biofeedback & Mindfulness Session Settings**: This section enables you to customize and personalize your biofeedback and mindfulness sessions to enhance your practice. Here are the adjustable options:
 
-  - **Breaths Per Minute**: Set your target breathing rate to align with your resonance frequency (RF) or any preferred breathing pace you are comfortable with.
-  - **Inhale/Exhale Ratio**: Adjust the ratio between inhaling and exhaling during your sessions to ensure it fits your breathing style and training objectives.
-  - **Show Oz Messages**: Toggle the display of **Optimal Zone (Oz) Messages**, which provide real-time feedback on how well you are following the pacer and staying within your optimal HRV zone. These messages guide you by indicating when you are in sync with the pacer or need to focus more on your breathing.
-  - **Sound & Vibration Cues**: Control the sound and vibration feedback during your sessions. These cues help you stay on track with your breathing without constantly watching the screen, enhancing the overall effectiveness of your practice.
+  - **Biofeedback Session Length**: Set the duration of your biofeedback session to match your training preferences, whether it's a short focus session or a longer practice.
+  - **Show Oz Meter**: Enable or disable the **Optimal Zone Meter**, which visually tracks your progress in real-time, helping you stay aware of your current zone.
+  - **Show Suggestions**: Activate or deactivate real-time guidance suggestions to help you optimize your breathing and stay within the desired zone.
+  - **Sound & Vibration Cues**: Adjust sound and vibration feedback to help you stay in rhythm during your practice without needing to look at the screen.
+  - **Breathing Settings**: Fine-tune additional breathing parameters such as inhale hold, exhale hold, and pacing to customize your practice experience.
   - **Pacer Sound**: Customize the sounds for both inhalation and exhalation. You can choose from a list of 19 different sounds that suit your preferences, helping you stay aligned with the pacer and making your sessions more enjoyable.
 
 <div align=center>
-<img height="375" src="./images/mobile-app/session_settings.jpg" style="margin-right: 30px;"/>
+<img height="375" src="./images/mobile-app/session_settings.png" style="margin-right: 30px;"/>
 <img height="375" src="./images/mobile-app/sounds_&_vibration.jpg" style="margin-right: 30px;"/>
 <img height="375" src="./images/mobile-app/sounds_list.jpg"/>
 </div>
