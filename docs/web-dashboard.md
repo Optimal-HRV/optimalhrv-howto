@@ -257,6 +257,22 @@ Click the **Edit** (pencil) icon next to a group to open the group management sc
 
 Use this screen to efficiently manage admin access for each group.
 
+## Switching Organizations or Groups
+
+At the top bar of any page in the Organizational Dashboard, you'll find a dropdown displaying the **current organization or group name**.
+
+<div align=center>
+<img height="360" width="300" src="./images/web-dashboard/changeOrg.png"/>
+</div>
+
+**How It Works**
+
+- This dropdown allows users with the appropriate permissions to switch between different organizations or groups.
+- If the user is an **Organization Admin**, clicking the dropdown will reveal a list of all organizations and groups they have access to.
+- Selecting a different organization or group from the list will update the dashboard view to reflect the selected context.
+
+This feature is especially helpful for admins managing multiple groups or organizations under a single account.
+
 <!-- ## To add people to a group
 
 - Get to the group page:
