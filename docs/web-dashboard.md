@@ -273,6 +273,39 @@ At the top bar of any page in the Organizational Dashboard, you'll find a dropdo
 
 This feature is especially helpful for admins managing multiple groups or organizations under a single account.
 
+## Lifetime Membership
+
+Optimal HRV offers a **Lifetime Membership** that can be purchased directly from our official website: [www.optimalhrv.com](https://www.optimalhrv.com).
+
+**Available Options**
+
+We offer two types of lifetime membership plans:
+
+1. **Lifetime Membership Only**  
+   Grants full access to the Optimal HRV platform for life.
+
+2. **Lifetime Membership + Optimal HRV Reader**  
+   Includes lifetime platform access along with our official HRV reader device, shipped to your address.
+
+**How to Purchase**
+
+1. Visit [www.optimalhrv.com](https://www.optimalhrv.com).
+2. Scroll down to the **Best Sellers** section and select the lifetime membership option that suits your needs.
+3. Click the **Buy Now** button.
+4. Fill in your **Customer Details**.  
+   If you’re purchasing the membership with an HRV Reader, also complete the **Delivery Details** section.
+5. Click **Continue** to proceed.
+6. Select your preferred **Payment Method** and complete the checkout process.
+
+**After Purchase**
+
+Once your payment is successfully completed:
+
+- You will receive a **confirmation email** with purchase details.
+- If you ordered an HRV Reader, the email will include tracking information for your shipment.
+
+This process ensures a smooth and secure way to gain permanent access to Optimal HRV’s platform and tools.
+
 <!-- ## To add people to a group
 
 - Get to the group page:
