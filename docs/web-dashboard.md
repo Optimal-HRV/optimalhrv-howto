@@ -24,7 +24,7 @@ You can log in to your dashboard once you have an organizational account. The li
 The link will take you to the web dashboard login page. Once we set you up as an owner, the login information that gets you into the smartphone app will give you access to your dashboard.
 
 <div align=center>
-<img width="800" height="500" src="./images/web-dashboard/web-dash_login.png"/>
+<img width="800" height="500" src="./images/web-dashboard/signIn.png"/>
 </div>
 
 <!-- <img align="right" src="./images/web-dashboard/webdash-img-1.png">
@@ -57,12 +57,12 @@ Notes:
 You can click on a group to get information on the group and the individuals within that group.
 
 <div align=center>
-<img width="750" src="./images/web-dashboard/webdash-img-3.png"/>
+<img width="750" src="./images/web-dashboard/dashboardPage.png"/>
 </div>
 
 The left menu bar:
 
-<img src="./images/web-dashboard/webdash-img-4.png" align="left" height="265"/>
+<img src="./images/web-dashboard/navBar.png" align="left" height="265"/>
 
     - Dashboard: Takes you back to the organizational dashboard
 
@@ -70,63 +70,194 @@ The left menu bar:
 
     - Users: Links to a page with a list of individuals users and allows you to add new users
 
-    - Activity: Links to a page where you can view recent activities on the web dash
+    - Invite Users: Links to a page where you can invite new users to the platform
 
     - Reports: Links to a data-rich page for detailed information on user HRV
 
 <br clear="left"/>
 
-## Adding New Users
+## Creating New Users
 
-- `Make sure you are on the main page, the organizational dashboard`.
-- Click the user icon on the left menu.
-- A box will allow you to set up a new user.
-- If you do not know someone’s date of birth or gender, enter today’s date and Others for gender.
-- Usernames set up through the web dash look like email addresses (whether that address exists or not). Consider this a unique username for login purposes.
-- Set a password.
-- When you send people their username and password, encourage them to visit the Profile page the first time this log into the app. They should update their date of birth, gender, and new password.
-- If you add many new users, email support@optimalhrv.com to get an Excel spreadsheet to import many new users into your organization efficiently.
+Follow the steps below to manually add new users through the Organizational Dashboard:
+
+1. **Navigate to the Dashboard**  
+   Ensure you are on the main page of the Organizational Dashboard.
+
+2. **Open the Users Page**  
+   Click the **Users** icon from the left-hand menu.
+
+3. **Add a New User**  
+   Click the **Add User** button to open the user setup form.
+
+4. **Fill in User Details**
+
+   - **Name**: Enter the full name of the user.
+   - **Username**: Create a username that resembles an email address. It does not need to be a real email — it is used as a unique login identifier.
+   - **Password**: Set a secure temporary password for the user.
+   - **Date of Birth**: If unknown, enter today’s date as a placeholder.
+   - **Gender**: If unknown, select `Other`.
+
+5. **Assign User to Groups (Optional)**  
+   Now assign users to specific groups. Group admins have access to manage users within their groups and view corresponding HRV data.
+
+6. **Communicate Login Credentials**  
+   Share the username and password with the user securely.  
+   Instruct the user to:
+   - Log in using the provided credentials.
+   - Visit their **Profile** page in the app.
+   - Update their date of birth, gender, and change their password.
+
+---
+
+**Bulk User Import**
+
+If you're adding a large number of users:
+
+- Email [support@optimalhrv.com](mailto:support@optimalhrv.com) and request an Excel import template.
+- Fill out the required fields in the spreadsheet and send it back for batch upload.
+
+---
+
+**Notes**
+
+- Each user must have a unique username.
+- The date of birth and gender are used to calculate population norms for HRV comparisons.
+- Users can be added to groups later from the **Groups** section.
+
+---
+
+**Troubleshooting: Email Already Exists**
+
+If you receive an error indicating the username or email already exists, it means the user is already registered in the Optimal HRV system.  
+Due to security and privacy reasons, organizational admins **cannot directly add users who already have an account**.  
+Instead, use the **Invite User** page to send them an invitation. If the user accepts the invite, you will gain access to their HRV data through your organization.
+
 <div align=center>
-<img width="450" src="./images/web-dashboard/webdash-img-5.png"/>
-<img width="400" src="./images/web-dashboard/webdash-img-6.png"/>
-<img width="450" src="./images/web-dashboard/webdash-img-7.png"/>
+<img width="450" src="./images/web-dashboard/usersPage.png"/>
+<img width="400" src="./images/web-dashboard/addUser.png"/>
+<img width="450" src="./images/web-dashboard/addUserGroup.png"/>
 </div>
 
-## Action Buttons on User Page
+## Action Buttons on the Users Page
 
-Additional functionality “Actions” on the far right of the user menu:
+On the far right of each row in the Users list, you'll find **Action buttons** that allow you to manage individual users:
 
-- The trash can icon next to a user to delete them as a user.
-- The key icon will allow you to reset someone’s password.
-- Adding an admin user
-  - Admin users can add new users and groups. They can also view user and group HRV data.
-  - If you add a new user manually, you will have the option to check the admin box, making them an administrator for the organization.
-- If you want to turn an existing non-admin user into an admin, click the pencil icon, and the edit user screen allows you to set them as an admin.
+- **Delete a User**  
+  Click the **trash can icon** to permanently remove a user from the organization.
+
+- **Edit User Details / Set Admin Permissions**  
+  Click the **pencil icon** to open the **Edit User** screen, where you can:
+
+  - Update user information (name, username, etc.).
+  - Grant **admin access** to the user by checking the **Admin** box.
+
+  > Admin users have the ability to:
+  >
+  > - Add and manage users and groups
+  > - View HRV data across all users and groups in the organization
 
 <div align=center>
-<img width="450" src="./images/web-dashboard/webdash-img-8.png"/>
-<img width="400" src="./images/web-dashboard/webdash-img-9.png"/>
-<img width="250" src="./images/web-dashboard/webdash-img-10.png"/>
+<img width="200" src="./images/web-dashboard/actionButtons.png"/>
+<img width="800" height="400" src="./images/web-dashboard/editUser.png"/>
 </div>
+
+## Inviting Existing Users
+
+You can invite users to join your organization instead of adding them manually.
+
+1. **Open the Invite Users Page**  
+   From the Organizational Dashboard, navigate to the **Invite Users** page in the left-hand menu.
+
+2. **Click the Invite User Button**  
+   At the top of the page, click the **Invite User** button. This opens a dialog with the following fields:
+
+   - **First Name**: Enter the user’s first name.
+   - **Last Name**: Enter the user’s last name.
+   - **Group**: Select the group you want this user to join.
+   - **Email**: Enter the user’s existing email address (must match the one they used to register).
+   - **Role**: Choose the user’s role within your organization using one of the following radio buttons:
+     - **Organization Admin**
+     - **Group Admin**
+     - **User**
+
+3. **Send the Invite**  
+   Click the **Send Invite** button in the dialog. This sends an email with a secure link inviting the user to join your organization.
+
+<div align=center>
+<img height="300" width="460" src="./images/web-dashboard/inviteEmail.png"/>
+</div>
+
+When the user clicks the link:
+
+- They are redirected to the login screen.
+- They can log in using their existing account or create a new one.
+- Once logged in, they will be added to your organization with the selected role and group access.
+
+---
+
+**Invited Users Table**
+
+A table listing all invited users along with their current status:
+
+- **Pending**: The user has not yet accepted the invitation.
+- **Accepted**: The user has accepted the invitation and is now part of your organization.
+
+You can monitor and manage invitations from this table at any time.
 
 ## Groups Page
 
-To access the Groups Page. Click the Groups icon on the left menu.
+The Groups Page allows organization admins to create and manage groups, assign group admins, and control group-level access to HRV data.
 
-To add a new group and admin.
+**Accessing the Groups Page**
 
-- Click the group icon on the left menu.
-- A box will allow you to set up a new group.
-- Name the group.
-- Organizational admins are automatically set as admins for every group. As admins, they can view the group’s data and add users. However, their data will not be included unless they are added to the group.
-- You can add group admins when creating a new group by clicking the plus icon next to their names. Adding someone as a group admin will allow them to add and remove people from a specific group and see that group’s information.
+- Click the **Groups** icon in the left-hand menu of the Organizational Dashboard.
+
+---
+
+**Creating a New Group**
+
+To add a new group and assign admins:
 
 <div align=center>
-<img height="300" width="450" src="./images/web-dashboard/webdash-img-11.png"/>
-<img width="400" src="./images/web-dashboard/webdash-img-12.png"/>
+<img height="350" width="500" src="./images/web-dashboard/groupsPage.png"/>
+<img width="400" src="./images/web-dashboard/addGroup.png"/>
 </div>
 
-## To add people to a group
+1. Click the **Add Group** button to open the add group dialog.
+2. Enter the **Group Name**.
+3. Select one or more users to be **Group Admins** by clicking on their names.
+4. Select one or more users to be **Group Members** by clicking the plus icon next to their emails.
+
+> **Note:**
+>
+> - **Organization Admins** are automatically set as admins for every group. They can view all group data and add users. However, they are not included in group HRV reports unless explicitly added to the group as a member.
+
+---
+
+**Managing Existing Groups**
+
+Each group is displayed in a table with relevant actions, including an **Edit** button.
+
+**Edit Group**
+
+Click the **Edit** (pencil) icon next to a group to open the group management screen. This screen includes:
+
+<div align=center>
+<img height="300" width="460" src="./images/web-dashboard/groupEdit.png"/>
+</div>
+
+- **Group Name Header**  
+  The current name of the group appears at the top with an **Update** button that allows renaming the group.
+
+- **Group Admins Table**  
+  Below the group name, you’ll see a table listing the current group admins. This table includes:
+  - The name and email of each admin.
+  - A **Delete** icon for removing an admin from the group.
+  - An **Add Admin** button at the top of the table to assign new group admins.
+
+Use this screen to efficiently manage admin access for each group.
+
+<!-- ## To add people to a group
 
 - Get to the group page:
 
@@ -147,7 +278,7 @@ To add a new group and admin.
 <div align=center>
 <img width="450" src="./images/web-dashboard/webdash-img-15.png"/>
 <img width="450" src="./images/web-dashboard/webdash-img-16.png"/>
-</div>
+</div> -->
 
 ## Reviewing People's HRV Data
 
