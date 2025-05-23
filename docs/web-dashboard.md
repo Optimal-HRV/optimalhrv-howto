@@ -309,27 +309,27 @@ After purchasing the **Lifetime Membership**, follow these steps to activate you
 2. **Click the Claim Link**
 
    - Open the email and click the **"Claim Now"** button.
-   - This will redirect you to the Optimal HRV platform.
+   - This will redirect you to the Optimal HRV dashboard login screen.
 
 <div align=center>
 <img width="600" src="./images/web-dashboard/claim_lifetime_1.png"/>
 </div>
 
-3. **Create or Log In to Your Account**
+3. **Log In or Sign Up to Your Account**
 
-   - If you’re a **new user**, click on Sign Up button to claim your membership.
-   - If you **already have an account**, log in to claim your Lifetime Membership on your account.
+   - If you’re a **new user**, click on Sign Up button to sign up as a new user.
+   - If you **already have an account**, log in to your account.
 
-4. **Confirm Claim**
-   - Once logged in, you’ll see a confirmation message (e.g., _"Would you like to activate Lifetime Membership on this account"_).
-   - Confirm by click on **Claim Now** button.
-   - You can also click on logout and use any other account to claim the membership.
+4. **Claim confirmation**
+   - Once you have setup new account or logged in to your existing account, you’ll see a confirmation message (e.g., _"Would you like to activate Lifetime Membership on this account"_).
+   - To ensure that you are aware on which account you are going to claim the membership you are asked to click on the **Claim Now** button.
+   - If you don't want to claim life time membership on the account you see below the claim now button you can click on logout and use any other account to claim the membership.
 
 <div align=center>
 <img width="600" src="./images/web-dashboard/claim_lifetime_2.png"/>
 </div>
 
-**Need Help?**  
+**Need Help?**
 If the claim link expires or you encounter issues, contact support at [support@optimalhrv.com](mailto:support@optimalhrv.com) with your purchase details.
 
 <!-- ## To add people to a group
