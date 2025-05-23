@@ -303,12 +303,12 @@ After purchasing the **Lifetime Membership**, follow these steps to activate you
 
 1. **Check Your Email**
 
-   - Look for a confirmation email from Optimal HRV (subject: _"Your Lifetime Membership Purchase"_).
+   - Look for a confirmation email from support@optimalhrv.com (subject: _"Thank you for purchasing..."_).
    - If you don’t see it, check your **Spam/Junk folder**.
 
 2. **Click the Claim Link**
 
-   - Open the email and click the **"Claim Your Lifetime Membership"** button/link.
+   - Open the email and click the **"Claim Now"** button.
    - This will redirect you to the Optimal HRV platform.
 
 <div align=center>
@@ -317,10 +317,10 @@ After purchasing the **Lifetime Membership**, follow these steps to activate you
 
 3. **Create or Log In to Your Account**
 
-   - If you’re a **new user**, follow the prompts to set up your account.
-   - If you **already have an account**, log in to merge your Lifetime Membership with your profile.
+   - If you’re a **new user**, click on Sign Up button to claim your membership.
+   - If you **already have an account**, log in to claim your Lifetime Membership on your account.
 
-4. **Confirm Activation**
+4. **Confirm Claim**
    - Once logged in, you’ll see a confirmation message (e.g., _"Would you like to activate Lifetime Membership on this account"_).
    - Confirm by click on **Claim Now** button.
    - You can also click on logout and use any other account to claim the membership.
