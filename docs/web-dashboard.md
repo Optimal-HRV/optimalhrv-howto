@@ -138,28 +138,6 @@ Instead, use the **Invite User** page to send them an invitation. If the user ac
 <img width="450" src="./images/web-dashboard/addUserGroup.png"/>
 </div>
 
-## Action Buttons on the Users Page
-
-On the far right of each row in the Users list, you'll find **Action buttons** that allow you to manage individual users:
-
-- **Delete a User**  
-  Click the **trash can icon** to permanently remove a user from the organization.
-
-- **Edit User Details / Set Admin Permissions**  
-  Click the **pencil icon** to open the **Edit User** screen, where you can:
-
-  - Update user information (name, username, etc.).
-  - Grant **admin access** to the user by checking the **Admin** box.
-
-  > Admin users have the ability to:
-  >
-  > - Add and manage users and groups
-  > - View HRV data across all users and groups in the organization
-
-<div align=center>
-<img width="200" src="./images/web-dashboard/actionButtons.png"/>
-<img width="800" height="400" src="./images/web-dashboard/editUser.png"/>
-</div>
 
 ## Inviting Existing Users
 
@@ -204,9 +182,32 @@ A table listing all invited users along with their current status:
 
 You can monitor and manage invitations from this table at any time.
 
+## Action Buttons on the Users Page
+
+On the far right of each row in the Users list, you'll find **Action buttons** that allow you to manage individual users:
+
+- **Delete a User**  
+  Click the **trash can icon** to permanently remove a user from the organization.
+
+- **Edit User Details / Set Admin Permissions**  
+  Click the **pencil icon** to open the **Edit User** screen, where you can:
+
+  - Update user information (name, username, etc.).
+  - Grant **admin access** to the user by checking the **Admin** box.
+
+  > Admin users have the ability to:
+  >
+  > - Add and manage users and groups
+  > - View HRV data across all users and groups in the organization
+
+<div align=center>
+<img width="200" src="./images/web-dashboard/actionButtons.png"/>
+<img width="800" height="400" src="./images/web-dashboard/editUser.png"/>
+</div>
+
 ## Groups Page
 
-The Groups Page allows organization admins to create and manage groups, assign group admins, and control group-level access to HRV data.
+The Groups Page allows organization admins to create and manage groups, assign group admins, and control group-level access to HRV data, to add users to the group follow [these](linkgoeshere) instructions.
 
 **Accessing the Groups Page**
 
@@ -226,7 +227,6 @@ To add a new group and assign admins:
 1. Click the **Add Group** button to open the add group dialog.
 2. Enter the **Group Name**.
 3. Select one or more users to be **Group Admins** by clicking on their names.
-4. Select one or more users to be **Group Members** by clicking the plus icon next to their emails.
 
 > **Note:**
 >
@@ -256,6 +256,54 @@ Click the **Edit** (pencil) icon next to a group to open the group management sc
   - An **Add Admin** button at the top of the table to assign new group admins.
 
 Use this screen to efficiently manage admin access for each group.
+
+Absolutely! Here's the revised and fully polished Markdown version with all your notes incorporated:
+
+---
+
+## Adding Users to a Group
+
+This guide explains how **Organization Admins** and **Group Admins** can add users to a group in the system.
+
+#### 📌 Navigation Tips
+
+* The **Users** and **Groups** pages are available in the **left sidebar** of your dashboard.
+* You can **switch between organizations or groups** using the **dropdown menu** located at the **top-right corner** of the header section.
+
+👉 For detailed instructions on switching between organizations or groups, refer to our guide:
+[Switching Organizations or Groups – Optimal HRV Docs](https://docs.optimalhrv.com/#/web-dashboard?id=switching-organizations-or-groups)
+
+---
+
+#### 👤 Group Admins
+
+If you're a **Group Admin**, follow these steps:
+
+1. Go to your **Group Dashboard**.
+2. From the **left sidebar**, navigate to the **Users** page.
+3. Click the **`Add User`** button at the top-right corner.
+4. Fill in the required user details and click submit.
+
+> ✅ Group Admins can manage users directly within their assigned group.
+
+---
+
+#### 🏢 Organization Admins
+
+If you're an **Organization Admin**, you cannot directly add users to a group from the org-level dashboard. Here's how to proceed:
+
+#### To Add Users to a Group:
+
+1. From your **Org Admin Dashboard**, go to the **Groups** page in the **left sidebar**.
+2. **Click on the group** you want to manage.
+   This action will **automatically switch you to that group’s dashboard**.
+3. In the **left sidebar**, navigate to the **Users** page.
+4. Click the **`Add User`** button at the top-right corner.
+5. Enter the user details and submit the form.
+
+> ℹ️ Note: Org Admins must **switch to a group's dashboard** before they can add users.
+> We recognize this is not ideal and are working on a future update that will allow Org Admins to add users to groups **without switching**.
+
 
 ## Switching Organizations or Groups
 
