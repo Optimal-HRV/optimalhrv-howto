@@ -1,4 +1,4 @@
-u# Using the Optimal HRV app
+# Using the Optimal HRV app
 
 Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our app provides a way to quantitatively measure Heart Rate Variability for yourself, for your employees, or for those you are caring for, as well as enhancing recovery with our in-app biofeedback training modules.
 
@@ -10,7 +10,7 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 > - Connect the Bluetooth reader through the app itself as you start to take a reading or do a training session. Do not connect through the Bluetooth menu on your phone.
 
 <div align=center>
-<img width="275" height="375" src="./images/mobile-app/optimal-reader-removebg.png"/>
+<img width="275" height="375" src="./images/mobile-app/optimal-reader.png"/>
 </div>
 
 ## How to Connect Your Device to Start Taking Readings
