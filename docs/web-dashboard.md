@@ -138,28 +138,6 @@ Instead, use the **Invite User** page to send them an invitation. If the user ac
 <img width="450" src="./images/web-dashboard/addUserGroup.png"/>
 </div>
 
-## Action Buttons on the Users Page
-
-On the far right of each row in the Users list, you'll find **Action buttons** that allow you to manage individual users:
-
-- **Delete a User**  
-  Click the **trash can icon** to permanently remove a user from the organization.
-
-- **Edit User Details / Set Admin Permissions**  
-  Click the **pencil icon** to open the **Edit User** screen, where you can:
-
-  - Update user information (name, username, etc.).
-  - Grant **admin access** to the user by checking the **Admin** box.
-
-  > Admin users have the ability to:
-  >
-  > - Add and manage users and groups
-  > - View HRV data across all users and groups in the organization
-
-<div align=center>
-<img width="200" src="./images/web-dashboard/actionButtons.png"/>
-<img width="800" height="400" src="./images/web-dashboard/editUser.png"/>
-</div>
 
 ## Inviting Existing Users
 
@@ -204,9 +182,32 @@ A table listing all invited users along with their current status:
 
 You can monitor and manage invitations from this table at any time.
 
+## Action Buttons on the Users Page
+
+On the far right of each row in the Users list, you'll find **Action buttons** that allow you to manage individual users:
+
+- **Delete a User**  
+  Click the **trash can icon** to permanently remove a user from the organization.
+
+- **Edit User Details / Set Admin Permissions**  
+  Click the **pencil icon** to open the **Edit User** screen, where you can:
+
+  - Update user information (name, username, etc.).
+  - Grant **admin access** to the user by checking the **Admin** box.
+
+  > Admin users have the ability to:
+  >
+  > - Add and manage users and groups
+  > - View HRV data across all users and groups in the organization
+
+<div align=center>
+<img width="200" src="./images/web-dashboard/actionButtons.png"/>
+<img width="800" height="400" src="./images/web-dashboard/editUser.png"/>
+</div>
+
 ## Groups Page
 
-The Groups Page allows organization admins to create and manage groups, assign group admins, and control group-level access to HRV data.
+The Groups Page allows organization admins to create and manage groups, assign group admins, and control group-level access to HRV data, to add users to the group follow [these](linkgoeshere) instructions.
 
 **Accessing the Groups Page**
 
@@ -226,7 +227,6 @@ To add a new group and assign admins:
 1. Click the **Add Group** button to open the add group dialog.
 2. Enter the **Group Name**.
 3. Select one or more users to be **Group Admins** by clicking on their names.
-4. Select one or more users to be **Group Members** by clicking the plus icon next to their emails.
 
 > **Note:**
 >
@@ -256,6 +256,54 @@ Click the **Edit** (pencil) icon next to a group to open the group management sc
   - An **Add Admin** button at the top of the table to assign new group admins.
 
 Use this screen to efficiently manage admin access for each group.
+
+Absolutely! Here's the revised and fully polished Markdown version with all your notes incorporated:
+
+---
+
+## Adding Users to a Group
+
+This guide explains how **Organization Admins** and **Group Admins** can add users to a group in the system.
+
+#### 📌 Navigation Tips
+
+* The **Users** and **Groups** pages are available in the **left sidebar** of your dashboard.
+* You can **switch between organizations or groups** using the **dropdown menu** located at the **top-right corner** of the header section.
+
+👉 For detailed instructions on switching between organizations or groups, refer to our guide:
+[Switching Organizations or Groups – Optimal HRV Docs](https://docs.optimalhrv.com/#/web-dashboard?id=switching-organizations-or-groups)
+
+---
+
+#### 👤 Group Admins
+
+If you're a **Group Admin**, follow these steps:
+
+1. Go to your **Group Dashboard**.
+2. From the **left sidebar**, navigate to the **Users** page.
+3. Click the **`Add User`** button at the top-right corner.
+4. Fill in the required user details and click submit.
+
+> ✅ Group Admins can manage users directly within their assigned group.
+
+---
+
+#### 🏢 Organization Admins
+
+If you're an **Organization Admin**, you cannot directly add users to a group from the org-level dashboard. Here's how to proceed:
+
+#### To Add Users to a Group:
+
+1. From your **Org Admin Dashboard**, go to the **Groups** page in the **left sidebar**.
+2. **Click on the group** you want to manage.
+   This action will **automatically switch you to that group’s dashboard**.
+3. In the **left sidebar**, navigate to the **Users** page.
+4. Click the **`Add User`** button at the top-right corner.
+5. Enter the user details and submit the form.
+
+> ℹ️ Note: Org Admins must **switch to a group's dashboard** before they can add users.
+> We recognize this is not ideal and are working on a future update that will allow Org Admins to add users to groups **without switching**.
+
 
 ## Switching Organizations or Groups
 
@@ -309,27 +357,27 @@ After purchasing the **Lifetime Membership**, follow these steps to activate you
 2. **Click the Claim Link**
 
    - Open the email and click the **"Claim Now"** button.
-   - This will redirect you to the Optimal HRV platform.
+   - This will redirect you to the Optimal HRV dashboard login screen.
 
 <div align=center>
 <img width="600" src="./images/web-dashboard/claim_lifetime_1.png"/>
 </div>
 
-3. **Create or Log In to Your Account**
+3. **Log In or Sign Up to Your Account**
 
-   - If you’re a **new user**, click on Sign Up button to claim your membership.
-   - If you **already have an account**, log in to claim your Lifetime Membership on your account.
+   - If you’re a **new user**, click on Sign Up button to sign up as a new user.
+   - If you **already have an account**, log in to your account.
 
-4. **Confirm Claim**
-   - Once logged in, you’ll see a confirmation message (e.g., _"Would you like to activate Lifetime Membership on this account"_).
-   - Confirm by click on **Claim Now** button.
-   - You can also click on logout and use any other account to claim the membership.
+4. **Claim confirmation**
+   - Once you have setup new account or logged in to your existing account, you’ll see a confirmation message (e.g., _"Would you like to activate Lifetime Membership on this account"_).
+   - To ensure that you are aware on which account you are going to claim the membership you are asked to click on the **Claim Now** button.
+   - If you don't want to claim life time membership on the account you see below the claim now button you can click on logout and use any other account to claim the membership.
 
 <div align=center>
 <img width="600" src="./images/web-dashboard/claim_lifetime_2.png"/>
 </div>
 
-**Need Help?**  
+**Need Help?**
 If the claim link expires or you encounter issues, contact support at [support@optimalhrv.com](mailto:support@optimalhrv.com) with your purchase details.
 
 <!-- ## To add people to a group
