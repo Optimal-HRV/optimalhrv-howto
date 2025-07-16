@@ -124,7 +124,7 @@ If you're experiencing connection issues, please follow these steps to troublesh
 
 - <u>History (on the Results Page)</u>: The history button at the bottom of the Results page will take you to a page with a chart of all your readings over time and a list of past readings.
 
-  - <u>Reading Details</u>: This includes your RMSSD, reading length, selected tags, notes, Max-Min, SDNN, Low Frequency, Heigh Frequency and Very Low Frequency.
+  - <u>Reading Details</u>: This includes your RMSSD, reading length, selected tags, notes, Max-Min, SDNN, Low Frequency, HighFrequency and Very Low Frequency.
   <div align=center>
   <img height="375" src="./images/mobile-app/mobile_anytime_h_btn.png" style="margin-right: 30px;"/>
   <img height="375" src="./images/mobile-app/mobile_anytime_history.jpg"/>
@@ -191,7 +191,7 @@ If you're experiencing connection issues, please follow these steps to troublesh
 
 - <u>History</u>: On the main **Mindfulness & Biofeedback** page, there is a link titled "Your last biofeedback training rate" within the "History" section. This link directs you to a page listing all your Mindfulness and Biofeedback training sessions.
 
-  - <u>Session Details</u>: This includes your session length, "Breaths Per Minute", Inhale/Exhale, **Optimal Zone %**, RMSSD, Max-Min, SDNN, Low Frequency, Heigh Frequency and Very Low Frequency.
+  - <u>Session Details</u>: This includes your session length, "Breaths Per Minute", Inhale/Exhale, **Optimal Zone %**, RMSSD, Max-Min, SDNN, Low Frequency, HighFrequency and Very Low Frequency.
 
 <div align=center>
 <img height="375" src="./images/mobile-app/mobile_BF.png" style="margin-right: 30px;"/>
