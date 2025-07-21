@@ -4,14 +4,72 @@
 [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/us/app/optimal-hrv/id1501292206)
 [![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.optimalhrv.app&hl=en_US&gl=US)
 
+- #### v5.3.9 (May 20, 2025)
+    **Features:**
+    - Added comprehensive device connectivity troubleshooting widget to help users resolve Bluetooth pairing issues
+    - Enhanced device scanning instructions with improved user guidance
+    - Improved low-quality data detection with enhanced dialogue checks
+
+    **Bug Fixes:**
+    - Fixed critical 3.5 BPM breathing rate calculation issues in biofeedback exercises
+    - Resolved heart rate chart rendering and data display problems
+    - Fixed custom tags functionality issues in reading settings
+    - Resolved app crashes in profile and subscription detail screens
+    - Fixed type errors in reading settings provider
+    - Corrected Optimal Zone data manager issues
+    - Fixed morning routine and subscription plan provider bugs
+    - Improved overall app stability and performance
+
+    **Technical Improvements:**
+    - Enhanced Bluetooth device connectivity and error handling
+    - Optimised biofeedback exercise accuracy and breathing rate algorithms
+    - Improved UI/UX for exercise listing screens
+    - Better error handling for device connection states
+    - Enhanced data validation and quality checks
+
+### Previous Releases
+
+- #### v5.3.8 (May 2025)
+    **Features:**
+    - Added device connectivity troubleshooting tools
+
+    **Bug Fixes:**
+    - Fixed app break issues in various UI components
+    - Improved low-quality data handling with dialogue checks
+
+- #### v5.3.7 (May 2025)
+    **Features:**
+    - Enhanced device scanning instruction display
+
+    **Bug Fixes:**
+    - Improved Bluetooth device connectivity workflow
+
+- #### v5.3.6 (May 2025)
+    **Bug Fixes:**
+    - Resolved custom tags issues in reading settings
+    - Fixed UI components in exercise screens
+
+- #### v5.3.5 (April 2025)
+    **Bug Fixes:**
+    - General UI fixes and improvements
+    - Enhanced exercise screen functionality
+
+- #### v5.3.4 (April 2025)
+    **Bug Fixes:**
+    - Critical 3.5 BPM fix for biofeedback exercises
+    - Improved exercise provider and screen components
+
+- #### v5.3.3 (April 2025)
+    **Bug Fixes:**
+    - Fixed heart rate chart issues
+    - Environment configuration improvements
+
 - #### v3.3.5 (Sep 11, 2023)
     **Features:**
     - Upgraded the bluetooth and device connection integration for all reading screens.
 
     **Bug Fixes:**
     - Couple of issues/bugs fixed.
-
-### Previous Releases
 
 - #### v3.3.4 (2023-07-18)
     **Features:**
