@@ -1,12 +1,14 @@
-<!-- ![logo](https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/docsify-darklight-theme-logo.png)
+![OptimalHRV Logo](assets/images/OptimalHRV_CMYK_Logo.png)
 
-# docsify-darklight-theme-starter
+# OptimalHRV Platform
 
-> A magical documentation site generator with dark and light mode switch.
+> Professional Heart Rate Variability Monitoring & Biofeedback Training
 
-- Themes are customizable based on your color preferences.
-- Themes are remembered and retrieved from local storage.
-- Redesigned search box.
+- 📱 **Mobile App** for personal HRV tracking
+- 📊 **Web Dashboard** for organizational management  
+- 🔬 **HRV Reader** device for accurate measurements
+- 🧘 **Biofeedback Training** for stress management & recovery
 
-[Preview](https://boopathikumar018.github.io/docsify-darklight-theme)
-[Getting Started](#docsify) -->
+[Get Started](#getting-started)
+[Download App](https://www.optimalhrv.com/)
+[Professional Dashboard](web-dashboard.md)
