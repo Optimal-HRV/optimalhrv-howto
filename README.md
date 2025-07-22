@@ -82,7 +82,7 @@ This documentation covers the complete OptimalHRV ecosystem:
 
 # License & Copyright
 
-© 2023 by Optimal, LLC. All rights reserved.
+© 2025 by Optimal, LLC. All rights reserved.
 
 This documentation is built with [Docsify](https://docsify.js.org/) and the [docsify-darklight-theme](https://github.com/boopathikumar018/docsify-darklight-theme).
 
