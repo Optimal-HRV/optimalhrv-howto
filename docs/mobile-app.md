@@ -6,7 +6,7 @@ Working with the [Optimal HRV Reader](https://www.optimalhrv.com/devices), our a
 >
 > - To utilize the Optimal HRV app, you will need an HRV Reader. The application is suitable for all heart rate monitors that precisely gauge R-R intervals, possess Bluetooth 4.0 or ANT+, and allow external apps to connect.
 > - While we highly recommend the Optimal HRV Reader, you can find a list of other compatible devices here.
-> - Whatever device you decide to use should be your consistent device. Different devices may show different results and can not be compared to one another.
+> - Whatever device you decide to use should be your consistent device. Different devices may show different results and cannot be compared to one another.
 > - Connect the Bluetooth reader through the app itself as you start to take a reading or do a training session. Do not connect through the Bluetooth menu on your phone.
 
 <div align=center>
@@ -109,7 +109,7 @@ If you're experiencing connection issues, please follow these steps to troublesh
 
   - <u>Latest</u>: The results of the reading you just completed or your last reading.
 
-  - <u>Previous</u>: This result is your HRV score from the second most recent training. Previous readings allow you to pre and post-text how certain activities (i.e., workouts, sleep, work, therapy, mindfulness) impact your HRV by comparing your Latest Reading (post-test) to your Previous (pre-test).
+  - <u>Previous</u>: This result is your HRV score from the second most recent training. Previous readings allow you to pre and post-test how certain activities (i.e., workouts, sleep, work, therapy, mindfulness) impact your HRV by comparing your Latest Reading (post-test) to your Previous (pre-test).
 
   - <u>Last Week</u>: This result is an average of your HRV scores over the last seven days. Simply put, this result provides insight into how you are doing this week.
 
