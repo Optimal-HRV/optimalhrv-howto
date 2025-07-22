@@ -1,84 +1,91 @@
+# OptimalHRV Documentation
 
 <p align="center">
-    <a href="https://docsify-darklight-theme.boopathikumar.me">
-        <img src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/docsify-darklight-theme-logo.png" style="width: 160px;height: 100px;" alt="jsdeliver"> 
-    </a>
+    <img src="docs/assets/images/OptimalHRV_CMYK_Logo.png" style="width: 200px;" alt="OptimalHRV Logo"> 
 </p>
+
 <p align="center"> 
-    <b>docsify-darklight-theme</b>
+    <b>Comprehensive Documentation for OptimalHRV Platform</b>
 </p>    
-<p align="center" >
-    <a target="_blank" href="https://docsify-darklight-theme.boopathikumar.me/"> Docs | Preview</a>
+
+<p align="center">
+    <a href="https://www.optimalhrv.com/" target="_blank">Official Website</a> | 
+    <a href="https://optimalhrv.com/devices" target="_blank">HRV Reader</a> | 
+    <a href="#" target="_blank">Documentation</a>
 </p>
 
 <p align="center">
-    <a href="https://www.jsdelivr.com/package/npm/docsify-darklight-theme">
-        <img src="https://data.jsdelivr.com/v1/package/npm/docsify-darklight-theme/badge?style=rounded" alt="jsdeliver">
+    <a href="https://apps.apple.com/app/optimal-hrv/id123456789">
+        <img src="docs/images/AppStoreBadge.png" alt="Download on App Store" height="60">
     </a>
-    <a href="https://badge.fury.io/js/docsify-darklight-theme">
-        <img src="https://badge.fury.io/js/docsify-darklight-theme.svg" alt="npm-version">
-    </a>
-    <a href="https://badge.fury.io/js/docsify-darklight-theme">
-        <img src="https://img.shields.io/badge/dynamic/json?url=https://api.npmjs.org/downloads/point/2020-01-01:2050-01-01/docsify-darklight-theme&label=npm%20downloads&query=$.downloads&color=informational" alt="npm-downloads">
-    </a>
-    <a href="https://badge.fury.io/gh/boopathikumar018%2Fdocsify-darklight-theme">
-        <img src="https://badge.fury.io/gh/boopathikumar018%2Fdocsify-darklight-theme.svg" alt="GitHub version" height="20">
-    </a>
-    <a href="https://opensource.org/licenses/MIT">
-        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="licenses" height="20">
-    </a>
-    <a href="https://opensource.org/licenses/MIT](https://openbase.com/js/docsify-darklight-theme?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge">
-        <img src="https://badges.openbase.com/js/featured/docsify-darklight-theme.svg?token=+xA+fO9IYyLQgXpy7PVro8oVO/vjz9TY5sNmJKtn8W8=" alt="Featured on Openbase" height="20">
+    <a href="https://play.google.com/store/apps/details?id=com.optimalhrv">
+        <img src="docs/images/PlayStoreBadge.png" alt="Get it on Google Play" height="60">
     </a>
 </p>
 
+# What is OptimalHRV?
 
-<p align="center"> Dark and Light theme with switch for your docsify site</p>
+**OptimalHRV** is a comprehensive heart rate variability (HRV) monitoring platform that provides quantitative measurement and biofeedback training for individuals, professionals, and organizations. Our ecosystem includes:
 
-<p align="center" >
-    <a target="_blank" href="https://docsify-darklight-theme.boopathikumar.me/#/installation"> view starter template installation guide</a>
-</p>
+- **📱 Mobile App**: iOS/Android application for personal HRV tracking and biofeedback training
+- **📊 Web Dashboard**: Professional platform for coaches, clinicians, and organizational managers
+- **🔬 HRV Reader**: Precision Bluetooth/ANT+ device for accurate R-R interval measurement
+- **🧘 Biofeedback Training**: In-app modules for recovery enhancement and stress management
 
-# What it is
+# Documentation Structure
 
+This documentation covers the complete OptimalHRV ecosystem:
 
-**docsify-darklight-theme**  is a simple and highly customizable theme for the documentation websites generated using [docsify.js](https://docsify.js.org/) ( also with [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/) ). Using this theme, documents will have a theme switcher to switch between <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#ffffff" stroke="#34495e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> `dark-mode` and <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#ffffff" stroke="#34495e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg> `light-mode` .
+## 📱 [Mobile App Guide](docs/mobile-app.md)
+- Device connection and setup
+- Taking HRV readings
+- Biofeedback training sessions
+- Troubleshooting and support
 
-See the [Quick start](https://docsify-darklight-theme.boopathikumar.me/#/installation) guide for more details.
+## 📊 [Web Dashboard Manual](docs/web-dashboard.md)
+- Organizational setup and user management
+- Group monitoring and analytics
+- Professional features for coaches and clinicians
+
+## 🔬 [HRV Reader Manual](docs/Others/user-manual.md)
+- Device specifications and operation
+- Charging and maintenance
+- Technical specifications
+
+## 📋 [Additional Resources](docs/Others/support.md)
+- Subscription management
+- Technical support
+- Frequently asked questions
+
+# Getting Started
+
+1. **📱 Download the App**: Get the OptimalHRV app from the App Store or Google Play
+2. **🔬 Get an HRV Reader**: Purchase the Optimal HRV Reader or use a compatible device
+3. **📖 Follow the Guides**: Use our comprehensive documentation to get started
+4. **💬 Get Support**: Contact our support team if you need assistance
 
 # Features
 
-- Default [theme mode detection](https://docsify-darklight-theme.boopathikumar.me/#/configuration?id=default-browser-theme-detection) in supported browser versions.
-- Theme Switcher.
-- Switcher support for [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/). View [setup guide](https://docsify-darklight-theme.boopathikumar.me/#/docsifyThemeable) here.
-- Themes are customizable based on your color preferences.
-- Option for other plugins to support (Dark/Light) mode. View [setup guide](https://docsify-darklight-theme.boopathikumar.me/#/themeSupport) here.
-- Preferences can be modified directly in `window.$docsify` [configuration object](https://docsify-darklight-theme.boopathikumar.me/#/configuration).
-- Using [configuration object](https://docsify-darklight-theme.boopathikumar.me/#/configuration)toogle icons can be configured based on your preference.
-- Default theme(Dark/Light) can be configured based on your needs.
-- Themes are remembered and retrieved from local storage.
-- Redesigned search box.
+- **Accurate HRV Measurement**: Professional-grade R-R interval detection
+- **Real-time Biofeedback**: Evidence-based breathing and meditation training
+- **Professional Dashboard**: Organizational management for coaches and clinicians
+- **Cross-platform**: iOS, Android, and web-based solutions
+- **Secure & Private**: HIPAA-compliant data handling for professional use
+- **Research-backed**: Based on latest HRV science and best practices
 
-# Contributors
+# Support & Community
 
-[@boopathikumar](//boopathikumar.me) [@eswarijayakumar](https://github.com/eswarijayakumar) [@kumaravel](//kumaravel.me)
+- **📧 Technical Support**: [support@optimalhrv.com](mailto:support@optimalhrv.com)
+- **🌐 Website**: [www.optimalhrv.com](https://www.optimalhrv.com)
+- **📖 Knowledge Base**: Browse our comprehensive documentation
+- **🏥 Professional Services**: Organizational setup and training available
 
-# Showcase
+# License & Copyright
 
-Check out the [Showcase](https://docsify-darklight-theme.boopathikumar.me/#/showcase) to see **docsify-darklight-theme** with docsify in use.
+© 2023 by Optimal, LLC. All rights reserved.
 
-# Release notes
+This documentation is built with [Docsify](https://docsify.js.org/) and the [docsify-darklight-theme](https://github.com/boopathikumar018/docsify-darklight-theme).
 
-View the [Change log](https://docsify-darklight-theme.boopathikumar.me/#/changelog) to know the details of each versions.
+---
 
-# Support
-
-- Create a [GitHub issue](https://github.com/boopathikumar018/docsify-darklight-theme/issues) for bug reports, feature requests, or questions
-- Follow [@docsify-darklight-theme](https://twitter.com/docsifyDrkLtThm) for announcements and release updates.
-- Add a ⭐️ [star on GitHub](https://github.com/boopathikumar018/docsify-darklight-theme) to support the plugin!
-
-
-# License
-
-This project is licensed under the terms of the [MIT](https://github.com/boopathikumar018/docsify-darklight-theme/blob/master/LICENSE) license.
- © [Boopathi Kumar](https://boopathikumar.me)
+*Heart Rate Variability monitoring for optimal health and performance.*

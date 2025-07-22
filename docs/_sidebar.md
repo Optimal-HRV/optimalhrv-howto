@@ -1,10 +1,9 @@
-- Getting started
-
+- Getting Started
   - [Mobile App](mobile-app.md)
   - [Web Dashboard](web-dashboard.md)
 
-- Others
+- Resources
   - [Optimal HRV Reader](./Others/user-manual.md)
   - [Support](./Others/support.md)
-  - [Subcription](subscription.md)
+  - [Subscription](subscription.md)
   - [Changelog](changelog.md)
