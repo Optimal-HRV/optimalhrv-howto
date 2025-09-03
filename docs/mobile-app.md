@@ -49,22 +49,25 @@ Follow these steps to connect your HRV device and begin your reading:
 
 If you're experiencing connection issues, please follow these steps to troubleshoot:
 
-1. **Disconnect from Bluetooth Settings:**  
+1. **Restart the App, Bluetooth, and Reader:**  
+   Close and reopen the Optimal HRV app, turn your phone’s Bluetooth off and back on, and power your HRV reader off and on. This simple reset often resolves most connection issues. Try to connect again.
+
+2. **Disconnect from Bluetooth Settings:**  
    If your device is connected via the system's Bluetooth menu, please disconnect or "forget" the device from there, then try reconnecting.
 
-2. **Check Other Apps:**  
+3. **Check Other Apps:**  
    If your device is paired with another app, make sure to disconnect or "forget" it from there as well, then try reconnecting.
 
-3. **Confirm Device Power & Sensor Placement:**  
+4. **Confirm Device Power & Sensor Placement:**  
    If your device isn’t appearing on the list, ensure it’s powered on and the sensor is properly positioned. When active, the device should blink with a blue or red light.
 
-4. **Refresh the Device List:**  
+5. **Refresh the Device List:**  
    If the device still doesn’t show, press the 🔄 refresh icon in the top-right corner of the modal, and try refreshing two or three times.
 
-5. **Ensure Bluetooth and Location are On:**  
+6. **Ensure Bluetooth and Location are On:**  
    Make sure both Bluetooth and Location are enabled on your device, then try connecting again.
 
-6. **Still Having Issues?**  
+7. **Still Having Issues?**  
    If none of these steps resolve the issue, please reach out to us at [support@optimalhrv.com](mailto:support@optimalhrv.com?subject=Problem%20connecting%20my%20device) for further assistance.
 
 ## Optimal HRV Login Instructions
