@@ -138,7 +138,6 @@ Instead, use the **Invite User** page to send them an invitation. If the user ac
 <img width="450" src="./images/web-dashboard/addUserGroup.png"/>
 </div>
 
-
 ## Inviting Existing Users
 
 You can invite users to join your organization instead of adding them manually.
@@ -263,47 +262,78 @@ Absolutely! Here's the revised and fully polished Markdown version with all your
 
 ## Adding Users to a Group
 
-This guide explains how **Organization Admins** and **Group Admins** can add users to a group in the system.
+This guide explains how **Organization Admins** and **Group Admins** can add or assign users to a group in the system. Note: Adding _new_ users creates fresh accounts, while assigning _existing_ users moves or adds them to groups without duplication.
 
 #### 📌 Navigation Tips
 
-* The **Users** and **Groups** pages are available in the **left sidebar** of your dashboard.
-* You can **switch between organizations or groups** using the **dropdown menu** located at the **top-right corner** of the header section.
+- The **Users** and **Groups** pages are available in the **left sidebar** of your dashboard.
+- You can **switch between organizations or groups** using the **dropdown menu** located at the **top-right corner** of the header section.
+- Button labels may vary slightly (e.g., "Add User" vs. "+ Add New") based on your dashboard version—functionality remains the same.
 
-👉 For detailed instructions on switching between organizations or groups, refer to our guide:
-[Switching Organizations or Groups – Optimal HRV Docs](https://docs.optimalhrv.com/#/web-dashboard?id=switching-organizations-or-groups)
+👉 For detailed instructions on switching between organizations or groups, refer to our guide: [Switching Organizations or Groups](#switching-organizations-or-groups).
 
 ---
 
-#### 👤 Group Admins
+#### 👤 Adding New Users to a Group (For Group Admins)
 
-If you're a **Group Admin**, follow these steps:
+If you're a **Group Admin**, follow these steps to add a brand-new user directly to your group:
 
-1. Go to your **Group Dashboard**.
+1. Go to your **Group Dashboard** (switch if needed via top-right dropdown).
 2. From the **left sidebar**, navigate to the **Users** page.
-3. Click the **`Add User`** button at the top-right corner.
-4. Fill in the required user details and click submit.
+3. Click the **`Add User`** or **`+ Add New`** button at the top-right (or top-left) corner.
+4. Fill in the required user details (Name, Username, Password, Date of Birth, Gender).
+5. In the **Assign to Groups** section (optional but recommended here), select your group.
+6. Click **Submit**.
 
-> ✅ Group Admins can manage users directly within their assigned group.
+> ✅ Group Admins can manage users directly within their assigned group. See [Creating New Users](#creating-new-users) for more details on user fields.
 
 ---
 
-#### 🏢 Organization Admins
+#### 🏢 Adding New Users to a Group (For Organization Admins)
 
-If you're an **Organization Admin**, you cannot directly add users to a group from the org-level dashboard. Here's how to proceed:
-
-#### To Add Users to a Group:
+Organization Admins cannot add users directly from the org-level dashboard. Here's how:
 
 1. From your **Org Admin Dashboard**, go to the **Groups** page in the **left sidebar**.
-2. **Click on the group** you want to manage.
-   This action will **automatically switch you to that group’s dashboard**.
+2. **Click on the group** you want to manage. This will **automatically switch you to that group’s dashboard**.
 3. In the **left sidebar**, navigate to the **Users** page.
-4. Click the **`Add User`** button at the top-right corner.
-5. Enter the user details and submit the form.
+4. Click the **`Add User`** or **`+ Add New`** button at the top-right (or top-left) corner.
+5. Enter the user details and select the group if prompted.
+6. Click **Submit**.
 
-> ℹ️ Note: Org Admins must **switch to a group's dashboard** before they can add users.
-> We recognize this is not ideal and are working on a future update that will allow Org Admins to add users to groups **without switching**.
+> ℹ️ Note: Org Admins must **switch to a group's dashboard** before adding users. We recognize this is not ideal and are working on a future update for direct assignment without switching.
 
+---
+
+#### 🔄 Assigning Existing Users to a Group
+
+To add or move an _existing_ user (already in your organization) to a group:
+
+1. From the **Organizational Dashboard**, click the **Users** icon in the left-hand menu to view all users.
+2. Locate the user in the list (e.g., search or scroll).
+3. Click the **pencil icon** (edit button) on the far right of their row. (See [Action Buttons on the Users Page](#action-buttons-on-the-users-page) for more.)
+4. In the popup:
+   - Review or skip the top fields (Name, Username, etc.).
+   - Below these, find the **dropdown menu** for groups.
+   - Select one or more groups to assign.
+5. Click **Update** or **Save**.
+
+6. Verify: Go to the group's page and confirm the user appears. Their HRV data should now be visible in the group context.
+
+<div align=center>
+<img width="400" src="./images/web-dashboard/editUser.png"/> <!-- Reuse existing image; add one showing group dropdown if possible -->
+</div>
+
+> ✅ This method works for both Org and Group Admins. If the user isn't visible, ensure they've accepted any invites (see [Inviting Existing Users](#inviting-existing-users)).
+
+---
+
+#### 🛠 Troubleshooting
+
+- **No "Add User" button?** Look for "+ Add New" instead—it's the same function.
+- **User not appearing in group after assignment?** Refresh the page, switch groups via dropdown, or check if they're pending (e.g., unaccepted invite).
+- **Can't see individual data?** Users must be in a group and have taken readings. Check last use under the main Dashboard.
+- **Error or missing dropdown?** Contact support@optimalhrv.com with screenshots. Ensure you're an admin with proper permissions.
+- For bulk changes, email support for an Excel template (see [Bulk User Import](#creating-new-users)).
 
 ## Switching Organizations or Groups
 
