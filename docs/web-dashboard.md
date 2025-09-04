@@ -62,7 +62,7 @@ You can click on a group to get information on the group and the individuals wit
 
 The left menu bar:
 
-<img src="./images/web-dashboard/navBar.png" align="left" height="265"/>
+<img src="./images/web-dashboard/navBar.png" align="left" height="320"/>
 
     - Dashboard: Takes you back to the organizational dashboard
 
@@ -73,6 +73,8 @@ The left menu bar:
     - Invite Users: Links to a page where you can invite new users to the platform
 
     - Reports: Links to a data-rich page for detailed information on user HRV
+
+    - Billing History: Provides a record of all invoices associated with your organization’s subscription.
 
 <br clear="left"/>
 
@@ -181,28 +183,157 @@ A table listing all invited users along with their current status:
 
 You can monitor and manage invitations from this table at any time.
 
-## Action Buttons on the Users Page
+## Users Management Page
 
-On the far right of each row in the Users list, you'll find **Action buttons** that allow you to manage individual users:
+**Path:** Organization > Users  
+**Purpose:** This page is the central hub for administrators to view, manage, and analyze all users within their organization. It provides both high-level metrics and a detailed, actionable list for comprehensive user administration.  
+**Primary User Role:** Organization Administrators.
 
-- **Delete a User**  
-  Click the **trash can icon** to permanently remove a user from the organization.
+---
 
-- **Edit User Details / Set Admin Permissions**  
-  Click the **pencil icon** to open the **Edit User** screen, where you can:
+#### Page Overview
 
-  - Update user information (name, username, etc.).
-  - Grant **admin access** to the user by checking the **Admin** box.
+The Users page combines a dashboard of key metrics with a powerful, sortable, and searchable data table. It is the starting point for all user-related administrative tasks, from auditing activity to onboarding new members.
 
-  > Admin users have the ability to:
-  >
-  > - Add and manage users and groups
-  > - View HRV data across all users and groups in the organization
+---
+
+#### User Summary Metrics (Top Section)
+
+At the top of the page, you will see a quick overview of user counts in your organization:
+
+- **Active Users** – The number of users currently using the platform.
+- **Internal Users** – Members of your organization (e.g., staff, team).
+- **External Users** – Invited users outside your organization (e.g., clients, partners).
+- **Total Users** – Sum of internal and external users.
+
+#### Global Action Buttons
+
+- **IMPORT:** Initiates a bulk user import process, typically via a CSV file upload. This is efficient for onboarding large teams.
+- **+ ADD NEW:** Opens a dialog or form to manually create a single new user account.
+
+---
+
+#### Users Data Table
+
+The core of the page is a detailed table listing every user in the organization. The table can be sorted by clicking on column headers and is filtered using the search bar.
+
+**Search Bar:** The `Search users...` field allows you to quickly find users by their name, email, or other attributes.
+
+#### Users Table Columns
+
+| Column                 | Description                                                                                                                                                                                                       |
+| :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**               | The full name of the user. This is the primary identifier.                                                                                                                                                        |
+| **Email**              | The user's primary email address. This field may be hidden for some users due to privacy settings.                                                                                                                |
+| **User type**          | The classification of the user. `Internal` denotes a standard employee, `Admin` is an internal user with elevated privileges, and `External` is a user from outside the organization (e.g., a client or partner). |
+| **Last activity**      | The timestamp of the user's most recent action in the system. A default date (e.g., 1 Jan 1900) indicates a user who has never been active.                                                                       |
+| **Last activity type** | The category of the last recorded action (e.g., "Login"). `N/A` indicates that no activity has been recorded for the user.                                                                                        |
+| **Signup date**        | The date the user account was officially created. This is a reliable metric for tracking onboarding.                                                                                                              |
+| **Payer**              | Defines the entity responsible for the user's billing. `Org` means the organization is billed, while `User` means the individual is responsible for payment.                                                      |
+| **Actions**            | Contains an icon menu for user management operations, such as **Edit** (to modify details and permissions) and **Delete** (to permanently remove the user).                                                       |
+
+---
+
+#### Common Use Cases
+
+#### 1. Onboarding a New Team
+
+**Goal:** Add a department of 20 new employees.
+**Action:** Use the **IMPORT** function to upload a CSV file with all user details instead of creating each account individually.
+
+#### 2. Auditing User Engagement
+
+**Goal:** Identify inactive accounts to free up licenses.
+**Action:** Scan the **Last activity** column for outdated timestamps or placeholder dates (`1 Jan 1900`). Use the **Actions** menu to deactivate or delete these users.
+
+#### 3. Managing External Collaboration
+
+**Goal:** Review and manage access for external partners.
+**Action:** Note the **EXTERNAL USERS** count. Filter the table by `External` user type to see all partners and review their **Last activity** to ensure access is still needed.
+
+#### 4. Promoting a User to Administrator
+
+**Goal:** Grant a trusted user full administrative capabilities.
+**Action:**
+
+1. Locate the user in the table.
+2. Click the **Edit** action in their row.
+3. In the Edit User form, check the **"Organization Admin"** option.
+4. Upon saving, their **User type** in this table will update from `Internal` to `Admin`.
+
+#### 5. Investigating Billing
+
+**Goal:** Understand who is responsible for paying for user licenses.
+**Action:** Review the **Payer** column. A high number of `Org` users means the company bears most costs. `User` indicates a bring-your-own-license model.
+
+---
+
+#### Visual Reference
 
 <div align=center>
-<img width="200" src="./images/web-dashboard/actionButtons.png"/>
-<img width="800" height="400" src="./images/web-dashboard/editUser.png"/>
+<img width="450" src="./images/web-dashboard/usersPage.png"/>
 </div>
+
+## Managing Users with Action Buttons
+
+On the far right of each row in the Users list, you'll find **Action buttons** that allow you to manage individual users.
+
+---
+
+#### **Delete a User**
+
+Click the **trash can icon** (![trash can icon]) to permanently remove a user from the organization.
+
+> **Warning:** This action is typically irreversible. Please confirm that you intend to delete the user before proceeding.
+
+---
+
+#### **Edit User Details / Set Permissions**
+
+Click the **pencil icon** (![pencil icon]) to open the **Edit User** screen. This allows you to modify the user's profile, define their access permissions, and configure billing settings.
+
+<div align="center">
+<img width="100" src="./images/web-dashboard/actionButtons.png""/>
+<img width="400" src="./images/web-dashboard/editUser.png"/>
+</div>
+
+The Edit User form is divided into several sections:
+
+#### **1. Personal Information**
+
+Update the core identifying details of the user.
+
+- **First Name & Last Name:** Modify the user's legal or preferred name.
+- **Date of Birth (DOB):** Edit the user's birth date in `MM/DD/YYYY` format.
+- **Gender:** Update the user's gender identity from the dropdown menu (e.g., Male, Female, Non-binary).
+
+#### **2. Access & Permissions**
+
+Control what the user can see and do within the system. This is critical for security and workflow management.
+
+- **Groups\*:** Assign the user to one or more groups (e.g., "Sales," "Customer Service"). Groups determine access to specific features, data, and dashboards. This is a required field.
+- **User Role:** Grant elevated permissions to the user.
+  - Check the **Organization Admin** box to make this user an administrator.
+  - > **⚠️ Admin Capabilities:** Users with the Organization Admin role will have the ability to:
+    >
+    > - Add, edit, and manage all users and groups within the organization.
+    > - Access and view sensitive data (like HRV) across all users and groups.
+    > - Manage organization-wide settings and billing.
+
+#### **3. Billing Configuration**
+
+Designate the financial responsibility for the user's account.
+
+- **Choose who will be paying:** Select one of the following options:
+  - **Organization:** The company's central billing account will be charged for this user's subscription or usage.
+  - **User:** The individual user will be billed directly, typically via a personal payment method.
+
+#### **Completing the Action**
+
+- **UPDATE:** Click this button to validate and save all changes to the user's profile.
+- **CANCEL:** Click this button to discard any changes and return to the users list.
+
+---
 
 ## Groups Page
 
@@ -287,6 +418,11 @@ If you're a **Group Admin**, follow these steps to add a brand-new user directly
 
 > ✅ Group Admins can manage users directly within their assigned group. See [Creating New Users](#creating-new-users) for more details on user fields.
 
+<div align=center>
+<img width="450" src="./images/web-dashboard/groupUsersPage.png"/>
+<img width="350" src="./images/web-dashboard/addGroupUser.png"/>
+</div>
+
 ---
 
 #### 🏢 Adding New Users to a Group (For Organization Admins)
@@ -301,6 +437,11 @@ Organization Admins cannot add users directly from the org-level dashboard. Here
 6. Click **Submit**.
 
 > ℹ️ Note: Org Admins must **switch to a group's dashboard** before adding users. We recognize this is not ideal and are working on a future update for direct assignment without switching.
+
+<div align=center>
+<img width="450" src="./images/web-dashboard/usersPage.png"/>
+<img width="350" src="./images/web-dashboard/addUser.png"/>
+</div>
 
 ---
 
@@ -350,6 +491,155 @@ At the top bar of any page in the Organizational Dashboard, you'll find a dropdo
 - Selecting a different organization or group from the list will update the dashboard view to reflect the selected context.
 
 This feature is especially helpful for admins managing multiple groups or organizations under a single account.
+
+## Billing History Page
+
+The **Billing History** page provides a record of all invoices associated with your organization’s subscription. Admins can view past billing activity, check the current payment status, and download invoices for accounting or compliance purposes.
+
+**Accessing the Billing History Page**
+
+- From the Organizational Dashboard, click the **Billing History** icon in the left-hand navigation menu.
+
+<div align=center>
+<img width="750" src="./images/web-dashboard/billingHistory.png"/>
+</div>
+
+---
+
+#### Page Overview
+
+The page consists of two main sections:
+
+1. **User Summary Metrics (Top Section)**  
+   At the top of the page, you will see a quick overview of user counts in your organization:
+
+   - **Active Users** – The number of users currently using the platform.
+   - **Internal Users** – Members of your organization (e.g., staff, team).
+   - **External Users** – Invited users outside your organization (e.g., clients, partners).
+   - **Total Users** – Sum of internal and external users.
+
+   > These counts help you confirm that your subscription matches the number of users in your organization.
+
+2. **Billing Records Table (Main Section)**  
+   A detailed table lists all invoices with the following columns:
+
+   | Column             | Description                                                                                                                                                                                                   |
+   | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | **Billing Email**  | The email address linked to the invoice recipient.                                                                                                                                                            |
+   | **Status**         | The current invoice status: <br> - **Paid**: The invoice has been paid.<br> - **Invoice Sent**: The invoice has been issued but is not yet paid.                                                              |
+   | **Invoice Number** | A unique identifier for the invoice.                                                                                                                                                                          |
+   | **Invoice Date**   | The date the invoice was generated.                                                                                                                                                                           |
+   | **Paid At**        | The date the invoice was paid (empty if unpaid).                                                                                                                                                              |
+   | **Amount**         | The total amount billed.                                                                                                                                                                                      |
+   | **Billing Start**  | The start date of the billing cycle.                                                                                                                                                                          |
+   | **Billing End**    | The end date of the billing cycle.                                                                                                                                                                            |
+   | **Actions**        | Depending on the invoice status, available options: <br> - **Download**: Download a copy of the invoice.<br> - **Pay Now**: Complete payment for unpaid invoices (only visible when status = _Invoice Sent_). |
+
+---
+
+#### Search and Filters
+
+- A search bar is available above the billing history table.
+- You can search invoices by **email, invoice number, or amount** to quickly locate records.
+
+---
+
+#### Billing Settings
+
+The **Billing Settings** button in the top-right corner of the billing history section allows admins to:
+
+- Update payment methods
+- Change the billing contact email
+- Adjust subscription plan details
+
+---
+
+#### Example Use Cases
+
+- **Finance Teams** – Download invoices for bookkeeping, tax filing, or audits.
+- **Admins** – Ensure all invoices are paid to prevent service interruption.
+- **Owners** – Cross-check active users against billing records to optimize costs.
+
+---
+
+#### Notes
+
+- Invoices marked **Invoice Sent** must be paid before the due date to maintain platform access.
+- Once payment is complete, the invoice status will automatically update to **Paid**, and the **Pay Now** button will be removed.
+
+## Billing Settings & Payments Page
+
+The **Billing & Payments** page allows organization admins to manage payment methods and update billing settings. From here, you can add or remove credit/debit cards, set a default payment method, and review the billing contact details linked to your account.
+
+**Accessing the Billing & Payments Page**
+
+- From the **Billing History** page, click on **Billing Settings**.
+- You will be redirected to the **Billing & Payments** page.
+
+<div align=center>
+<img width="750" src="./images/web-dashboard/billingSettings.png"/>
+</div>
+
+---
+
+#### Page Overview
+
+The Billing & Payments page consists of two main sections:
+
+1. **Payment Methods (Left Section)**  
+   This section shows the list of all saved cards associated with your organization’s account.
+
+   - Each saved card displays:
+     - Card network (Visa, Mastercard, Discover, etc.)
+     - Last four digits of the card
+     - Expiration date
+   - Available actions:
+     - **Remove** – Delete the card from the account.
+     - **Set as Default** – Assign the card as the primary method used for subscription payments.
+
+   **Add New Card Form**  
+   Below the saved cards list, admins can add a new payment method:
+
+   - **Card Number** – Full credit/debit card number.
+   - **Expiry Date** – Month and year of expiration.
+   - **CVC** – Card verification code.
+   - **Full Name** – Name of the cardholder.
+   - **Country/Region** – Billing country or region.
+   - **Address Line 1 & 2** – Billing address details.
+   - **City & Postal Code** – City and postal code linked to the card.
+   - **Set as Default Payment Method** (checkbox) – If checked, the new card will automatically be set as the primary payment method.
+
+   > Once the information is entered, click **Save Card** to store the new payment method or **Cancel** to discard.
+
+   <div align=center>
+   <img width="750" src="./images/web-dashboard/addNewCard.png"/>
+   </div>
+
+2. **Billing Settings (Right Section)**  
+   This section contains the organization’s billing details:
+
+   - **Billing Email** – Email address where invoices and payment notifications are sent.
+   - **Organization Name** – The registered organization linked to the subscription.
+   - **Billing Start Date** – The date when billing began for this organization.
+
+   _Note: Only the billing email can usually be updated. Organization name and start date are system-generated and cannot be changed manually._
+
+---
+
+#### Use Cases
+
+- **Finance Teams** – Maintain updated payment details to ensure uninterrupted service.
+- **Admins** – Replace expired or compromised cards quickly by adding new ones.
+- **Owners** – Control who receives invoices and financial communications by updating the billing email.
+
+---
+
+#### Notes
+
+- Only admins with billing permissions can access this page.
+- At least one valid payment method must be saved to keep the subscription active.
+- If the default card fails, the system will attempt to charge other saved cards.
+- Removing the last saved card may result in suspension of services until a new payment method is added.
 
 ## Lifetime Membership
 
