@@ -102,7 +102,7 @@ We've created a **seven-day onboarding process** to help new users explore all t
 **Start here!** Look for the "Onboarding Tasks" section in the app menu to begin your 7-day journey. Throughout the onboarding process, you'll encounter video summary screens that help reinforce what you've learned.
 
 <div align=center>
-<img height="375" src="./images/mobile-app/mobile_O.jpg"/>
+<img height="375" src="./images/mobile-app/mobile-onboarding-tasks-screen.png"/>
 </div>
 
 ### Setting Up Reminders
