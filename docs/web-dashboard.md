@@ -501,10 +501,100 @@ Groups help organize users and control HRV data access. Access the **Groups Page
 <img src="./images/web-dashboard/webdash-img-27.png"/>
 </div>
 
-#### Data Export
+### Export Data
 
-- **Download Daily Readings:** Generate Excel spreadsheet with all user HRV readings
-- **Comprehensive Data:** Includes all selected algorithms and timeframes
+**Access:** Available from the **Reports** page after configuring your report settings
+
+The Export Data feature allows you to download comprehensive HRV data in CSV format for further analysis, reporting, or record-keeping.
+
+#### How to Export Data
+
+1. **Configure Your Report:** Set up your report with desired filters:
+
+   - Select users from the **Users Dropdown**
+   - Choose tags from the **Tags Dropdown** (if applicable)
+   - Adjust the **Time Range** using the slider or date picker
+   - Select **Data Aggregation** (Distinct or Average)
+   - Choose your preferred **Algorithm** (RMSSD, Min-Max, SDNN, LF, HF, or VLF)
+
+2. **Locate Export Button:** Find the **Export** or **Download** button on the Reports page (typically located near the top or bottom of the report view)
+
+3. **Download Data:** Click the export button to generate and download a CSV file
+
+<div align=center>
+<img width="750" src="./images/web-dashboard/export-data.png"/>
+</div>
+
+#### What's Included in the Export
+
+The exported CSV file contains comprehensive HRV data with the following columns:
+
+**User and Reading Information:**
+
+- **userId:** Unique identifier for the user
+- **dateTime:** Timestamp for each HRV measurement
+- **readingResult:** The primary HRV reading result
+- **tooltipText:** Display text for the reading (e.g., "Matt Bennett RMSSD")
+- **tagId:** Identifier for user-added tags
+- **tagName:** Name of the tag associated with the reading (e.g., "Morning", "Evening/Night", "Daytime")
+
+**Time Domain Metrics:**
+
+- **rmssd:** Root Mean Square of Successive Differences (primary HRV metric)
+- **sdnn:** Standard Deviation of Normal-to-Normal intervals
+- **minMax:** Difference between maximum and minimum heart rate intervals
+- **meanNni:** Mean Normal-to-Normal interval
+- **medianNni:** Median Normal-to-Normal interval
+- **rangeNni:** Range of Normal-to-Normal intervals
+
+**Frequency Domain Metrics:**
+
+- **totalPower:** Total spectral power
+- **hf:** High Frequency power (parasympathetic nervous system activity)
+- **lf:** Low Frequency power (sympathetic nervous system activity)
+- **vlf:** Very Low Frequency power (long-term regulatory mechanisms)
+- **HF%:** High Frequency percentage
+- **LF%:** Low Frequency percentage
+- **VLF%:** Very Low Frequency percentage
+
+**Heart Rate Metrics:**
+
+- **meanHr:** Mean heart rate
+- **maxHr:** Maximum heart rate
+- **minHr:** Minimum heart rate
+
+**Data Filtering:**
+
+- All data respects your selected filters (users, tags, time range, aggregation method)
+- Individual readings or daily averages based on your **Data Aggregation** selection
+
+#### Use Cases
+
+**Data Analysis:**
+
+- Import CSV files into statistical software (SPSS, R, Python) for advanced analysis
+- Create custom visualizations and trend analysis
+- Perform longitudinal studies and research
+
+**Reporting:**
+
+- Generate reports for stakeholders or clients
+- Create presentations with HRV trends
+- Document progress over time
+
+**Record Keeping:**
+
+- Maintain offline backups of HRV data
+- Archive historical data for compliance
+- Share data with external consultants or researchers
+
+#### Tips for Exporting
+
+- **Filter Before Export:** Use the report filters to export only the data you need, reducing file size
+- **Select Specific Users:** Export data for individual users or groups for focused analysis
+- **Choose Appropriate Time Range:** Export data for specific periods (e.g., monthly, quarterly) for easier management
+- **CSV Compatibility:** CSV files can be opened in Excel, Google Sheets, or any spreadsheet application for analysis
+- **Complete Data:** The export includes all HRV metrics regardless of algorithm selection, providing comprehensive data for analysis
 
 ### Biofeedback and Mindfulness Data
 
