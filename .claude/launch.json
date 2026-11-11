@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "docs",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "3005", "--directory", "/Volumes/myData/optimal-hrv/docsify/docs"],
+      "port": 3005
+    }
+  ]
+}
